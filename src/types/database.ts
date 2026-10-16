@@ -16,6 +16,8 @@ export interface Package {
   is_featured: boolean;
   is_published: boolean;
   sort_order: number;
+  package_tiers?: PackageTier[];
+  itinerary_days?: ItineraryDay[];
 }
 
 export interface PackageTier {
@@ -43,4 +45,29 @@ export interface Testimonial {
   country: string;
   text: string;
   rating: number;
+  is_published?: boolean;
+}
+
+export interface FAQ {
+  id: string;
+  question: string;
+  answer: string;
+  sort_order: number;
+  is_published: boolean;
+}
+
+export interface Enquiry {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  package_id: string | null;
+  package_title?: string;
+  travel_dates: string;
+  adults: number;
+  children: number;
+  budget_tier?: string;
+  message?: string;
+  status: 'new' | 'contacted' | 'quoted' | 'booked' | 'archived';
+  created_at: string;
 }

@@ -1,0 +1,2698 @@
+[
+  {
+    "id": "90155180-556f-4003-b876-b04e42ff7b77",
+    "slug": "sigiriya-dambulla-day",
+    "title": "Sigiriya & Dambulla Day",
+    "short_description": "Two of Sri Lanka's great UNESCO sites in one day: start early to climb the sky-high Lion Rock at Sigiriya in the cool morning, followed by the ancient painted caves of Dambulla, finished with a home-cooked village lunch.",
+    "description": "Two of Sri Lanka's great UNESCO sites in one day: start early to climb the sky-high Lion Rock at Sigiriya in the cool morning, followed by the ancient painted caves of Dambulla, finished with a home-cooked village lunch.",
+    "duration_days": 1,
+    "route": "Sigiriya area \u2192 Sigiriya Rock \u2192 Dambulla Cave Temple \u2192 village lunch",
+    "best_time": "Year-round; start early to beat the heat",
+    "interests": [
+      "Culture & Heritage",
+      "Adventure"
+    ],
+    "cover_image": "blob:https://gemini.google.com/5c18f023-b537-44ed-8a0d-85767083e716",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Sigiriya ticket (5) and Dambulla ticket (about )"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 1,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "d02e2b00-b4bd-49c0-89c1-2365f4ac0fc8",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "90155180-556f-4003-b876-b04e42ff7b77",
+        "stay_details": "car and guide, entrance fees, lunch not included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "d3076c0f-e37d-454f-98e4-1f0b5dfe5dc5",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 15,
+        "package_id": "90155180-556f-4003-b876-b04e42ff7b77",
+        "stay_details": "SUV, village lunch and cooking demo included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "ed3125b4-3425-4222-b20c-48a52f5a7db6",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 75,
+        "package_id": "90155180-556f-4003-b876-b04e42ff7b77",
+        "stay_details": "premium vehicle, private lunch at a heritage lodge, bullock-cart ride and sunset village walk",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "e5843580-4a90-4862-806e-ab07824d1235",
+        "title": "Rock, Caves and Village",
+        "day_number": 1,
+        "package_id": "90155180-556f-4003-b876-b04e42ff7b77",
+        "description": "Early pickup from your hotel in the Sigiriya, Dambulla or Habarana area. Climb Sigiriya Rock Fortress in the cool morning to beat the heat, admiring the mirror wall and ancient frescoes. Afterwards, visit the Dambulla Cave Temple with its five caves of Buddha statues and frescoes. Enjoy lunch in a nearby village with a short cooking demonstration. Drop-off at your hotel.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+    "slug": "5-day-sri-lanka-highlights",
+    "title": "5-Day Sri Lanka Highlights Tour",
+    "short_description": "Experience the highlights of Sri Lanka on an unforgettable 5-day journey through vibrant cities, historic heritage, incredible wildlife, misty mountains, scenic train rides and the world-famous Ceylon Tea.",
+    "description": "Experience the highlights of Sri Lanka on an unforgettable 5-day journey through vibrant cities, historic heritage, incredible wildlife, misty mountains, scenic train rides and the world-famous Ceylon Tea.",
+    "duration_days": 5,
+    "route": "Airport \u2192 Colombo \u2192 Galle \u2192 Udawalawe \u2192 Haputale \u2192 Nuwara Eliya \u2192 Kandy \u2192 Airport",
+    "best_time": "Year-round",
+    "interests": [
+      "Culture & Heritage",
+      "Wildlife",
+      "Hill Country"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1544626154-db27e5ec0150?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 1,
+    "created_at": "2026-10-06T03:56:30.799992+00:00",
+    "package_tiers": [
+      {
+        "id": "3f17af28-d6ab-4596-8f71-9cce9250a057",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 20,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "stay_details": "Guesthouses, budget city hotels",
+        "transport_details": "See description"
+      },
+      {
+        "id": "51648114-e4b5-4ab3-9589-787ea07c329f",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 80,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "stay_details": "3\u20134\u2605 hotels, boutique lodges",
+        "transport_details": "See description"
+      },
+      {
+        "id": "eae289bf-e19f-46ed-ba12-557d83d255bb",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 350,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "stay_details": "Boutique hotels, luxury resorts",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "18d351f0-a873-4e24-b995-389e2b50c03b",
+        "title": "Arrival, Colombo & Historic Galle",
+        "day_number": 1,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "description": "Airport pickup and Colombo city tour. Continue to Galle and visit the historic Galle Fort, a UNESCO World Heritage Site.",
+        "overnight_location": "Galle"
+      },
+      {
+        "id": "cd293c2a-baff-4104-a534-0097b1fb3d3a",
+        "title": "Galle Heritage & Udawalawe Wildlife",
+        "day_number": 2,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "description": "Visit the Elephant Transit Home in Udawalawe and learn about elephant conservation. Continue to the beautiful hill country of Haputale.",
+        "overnight_location": "Haputale"
+      },
+      {
+        "id": "a6ed3cbf-3c8a-4f47-8e37-f9be36dc89fc",
+        "title": "Scenic Train Journey & Nuwara Eliya",
+        "day_number": 3,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "description": "Enjoy a memorable train journey from Haputale to Nanu Oya. Explore Nuwara Eliya town, known for its cool climate and colonial atmosphere.",
+        "overnight_location": "Nuwara Eliya"
+      },
+      {
+        "id": "0ee6f130-9bc5-454c-9fb9-0b3e55072274",
+        "title": "Kandy: Nature, Culture & Tradition",
+        "day_number": 4,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "description": "Explore the Royal Botanic Gardens, discover a Gem Factory, visit the Temple of the Sacred Tooth Relic, and enjoy a traditional cultural dance.",
+        "overnight_location": "Kandy"
+      },
+      {
+        "id": "e5e46765-c7e0-4381-89d7-6f7296a40514",
+        "title": "Ceylon Tea, Spices & Departure",
+        "day_number": 5,
+        "package_id": "e6c53ea2-8c26-46aa-984c-fba287b1c865",
+        "description": "Visit a traditional tea factory and a spice garden. Continue to the airport for your departure.",
+        "overnight_location": "Airport"
+      }
+    ]
+  },
+  {
+    "id": "b79b560a-0842-4f72-b938-287ad3578a59",
+    "slug": "kandy-culture-day",
+    "title": "Kandy Culture Day",
+    "short_description": "Sri Lanka's hill capital in a day: the sacred Temple of the Tooth Relic, the royal botanical gardens, the lakeside and an evening of traditional Kandyan dance.",
+    "description": "Sri Lanka's hill capital in a day: the sacred Temple of the Tooth Relic, the royal botanical gardens, the lakeside and an evening of traditional Kandyan dance.",
+    "duration_days": 1,
+    "route": "Kandy \u2192 Temple of the Tooth \u2192 Peradeniya Botanical Gardens \u2192 Kandy Lake \u2192 cultural show",
+    "best_time": "Year-round; July\u2013August for the Esala Perahera festival",
+    "interests": [
+      "Culture & Heritage",
+      "Hill Country"
+    ],
+    "cover_image": "https://drive.google.com/file/d/168GKwkB-ripRD2RTG5Wj9L3cnRIJMXMq/view?usp=drive_link",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Temple of the Tooth ticket, Peradeniya Botanical Gardens ticket, cultural show ticket (about 5 in total)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 2,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "a657dfd2-e776-45d4-9eec-c9c794826e75",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "b79b560a-0842-4f72-b938-287ad3578a59",
+        "stay_details": "car, guide and all tickets",
+        "transport_details": "See description"
+      },
+      {
+        "id": "12952dc2-32e3-4de7-8a66-e3501c2c5813",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "b79b560a-0842-4f72-b938-287ad3578a59",
+        "stay_details": "SUV, lunch at a local restaurant with a lake view",
+        "transport_details": "See description"
+      },
+      {
+        "id": "84231727-d925-41f9-9a39-ab97df206093",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 50,
+        "package_id": "b79b560a-0842-4f72-b938-287ad3578a59",
+        "stay_details": "premium vehicle, private guide for the temple, lunch at a heritage hotel, front-row show seats",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "0ab7e57f-6956-4594-a7e1-22b74d0cf3b8",
+        "title": "Sacred Kandy",
+        "day_number": 1,
+        "package_id": "b79b560a-0842-4f72-b938-287ad3578a59",
+        "description": "Morning visit to the Temple of the Tooth Relic. Drive around Kandy Lake and browse the town market. Lunch, then a walk through the Royal Botanical Gardens at Peradeniya. Evening Kandyan cultural dance performance and drop-off.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "671fee26-d4b5-4a8a-87fc-a4732810c75d",
+    "slug": "galle-fort-coast-day",
+    "title": "Galle Fort & Coast Day",
+    "short_description": "A relaxed day on the south-west coast: a boat trip through the Madu River mangroves, a visit to a traditional mask factory, a turtle hatchery, the cobbled streets of Galle Fort and a beach lunch at Unawatuna.",
+    "description": "A relaxed day on the south-west coast: a boat trip through the Madu River mangroves, a visit to a traditional mask factory, a turtle hatchery, the cobbled streets of Galle Fort and a beach lunch at Unawatuna.",
+    "duration_days": 1,
+    "route": "Bentota / Galle \u2192 Madu River \u2192 mask factory \u2192 turtle hatchery \u2192 Galle Fort \u2192 Unawatuna",
+    "best_time": "December to April (calmest seas)",
+    "interests": [
+      "Beaches",
+      "Culture & Heritage"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Madu River boat ride and turtle hatchery ticket (about 5)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 3,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "0ddf94c8-7d18-4af7-8f41-98bac9f5d69b",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "671fee26-d4b5-4a8a-87fc-a4732810c75d",
+        "stay_details": "car, guide, boat ride and hatchery",
+        "transport_details": "See description"
+      },
+      {
+        "id": "8ef4422e-8761-40dc-82c3-c87839be373c",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "671fee26-d4b5-4a8a-87fc-a4732810c75d",
+        "stay_details": "SUV, seafood lunch by the beach",
+        "transport_details": "See description"
+      },
+      {
+        "id": "a548b4e9-9754-4e74-8f0b-6f7911a1a449",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 50,
+        "package_id": "671fee26-d4b5-4a8a-87fc-a4732810c75d",
+        "stay_details": "premium vehicle, private boat, lunch at a Galle Fort boutique hotel, sunset drinks on the ramparts",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "117f4e52-0b72-4d4f-946e-761c91dba1e4",
+        "title": "Mangroves, Masks, Turtles and the Fort",
+        "day_number": 1,
+        "package_id": "671fee26-d4b5-4a8a-87fc-a4732810c75d",
+        "description": "Pickup in the Bentota or Galle area. Boat ride through the Madu River mangroves. Visit a traditional mask factory and museum to experience local wood carving and folklore masks. Visit a sea turtle conservation hatchery. Walk the ramparts of Galle Fort, the lighthouse and the old Dutch streets. Seafood lunch on Unawatuna beach and free time to swim.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "1f4f7bc9-9a1f-42db-a8af-217d06ade5ac",
+    "slug": "udawalawe-elephant-safari-day",
+    "title": "Udawalawe Elephant Safari Day",
+    "short_description": "Udawalawe is one of the most reliable places in Asia to see wild elephants up close. Combine a morning jeep safari with the Elephant Transit Home, where orphaned calves are cared for.",
+    "description": "Udawalawe is one of the most reliable places in Asia to see wild elephants up close. Combine a morning jeep safari with the Elephant Transit Home, where orphaned calves are cared for.",
+    "duration_days": 1,
+    "route": "Udawalawe area \u2192 Elephant Transit Home \u2192 jeep safari",
+    "best_time": "Year-round; dry season for the best sightings",
+    "interests": [
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1544626154-db27e5ec0150?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "National park entrance fee, jeep hire and tracker (estimate, about 0 per person for two sharing)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 4,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "b82ebbae-d449-40c4-9acc-c5597d97ed2f",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "1f4f7bc9-9a1f-42db-a8af-217d06ade5ac",
+        "stay_details": "shared jeep safari, lunch not included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "eb76577b-0af4-4594-9336-c4f8fe272639",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 25,
+        "package_id": "1f4f7bc9-9a1f-42db-a8af-217d06ade5ac",
+        "stay_details": "private jeep, lunch included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "b6d61475-9ac5-4e18-a709-b62765ee7f7d",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 90,
+        "package_id": "1f4f7bc9-9a1f-42db-a8af-217d06ade5ac",
+        "stay_details": "private jeep with naturalist guide, breakfast in the park and lunch at a lodge",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "6de8942f-883d-4a2c-8e10-d45f866c2e53",
+        "title": "Elephants Up Close",
+        "day_number": 1,
+        "package_id": "1f4f7bc9-9a1f-42db-a8af-217d06ade5ac",
+        "description": "Early start from your hotel in the Udawalawe, Tissamaharama or Galle area. Half-day jeep safari to spot elephants, water buffalo, crocodiles and birds. Visit the Elephant Transit Home at feeding time. Lunch and return.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "0ecb8994-4914-4158-be5a-2fc680ab4dfa",
+    "slug": "cultural-triangle-escape",
+    "title": "Cultural Triangle Escape",
+    "short_description": "The best of the ancient heartland in a short break: a sunrise climb of Sigiriya, the ruined royal city of Polonnaruwa and an evening elephant safari at Minneriya.",
+    "description": "The best of the ancient heartland in a short break: a sunrise climb of Sigiriya, the ruined royal city of Polonnaruwa and an evening elephant safari at Minneriya.",
+    "duration_days": 2,
+    "route": "Colombo \u2192 Sigiriya \u2192 Minneriya \u2192 Polonnaruwa \u2192 Colombo",
+    "best_time": "Year-round; June\u2013October for the elephant gathering",
+    "interests": [
+      "Culture & Heritage",
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1544626154-db27e5ec0150?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Sigiriya (5), Polonnaruwa (0), Minneriya safari (about 0; optional add-on for Essential)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 5,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "c7238673-ad53-4da4-9317-02d8c9af0b70",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 75,
+        "package_id": "0ecb8994-4914-4158-be5a-2fc680ab4dfa",
+        "stay_details": "guesthouse, sites included, safari as add-on (about 5)",
+        "transport_details": "See description"
+      },
+      {
+        "id": "94f9cedf-5215-4dae-a4bf-27abc957d71f",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 95,
+        "package_id": "0ecb8994-4914-4158-be5a-2fc680ab4dfa",
+        "stay_details": "3\u20134\u2605 hotel with pool, safari, dinner at the hotel",
+        "transport_details": "See description"
+      },
+      {
+        "id": "73e59328-143b-4215-8642-4d36acf2fc4a",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 80,
+        "package_id": "0ecb8994-4914-4158-be5a-2fc680ab4dfa",
+        "stay_details": "boutique hotel, half board, private jeep with naturalist guide",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "857d7389-8bb0-4f03-bc7e-9ee7c612a087",
+        "title": "Into the Ancient Heartland",
+        "day_number": 1,
+        "package_id": "0ecb8994-4914-4158-be5a-2fc680ab4dfa",
+        "description": "Pickup in Colombo or at the airport and scenic drive north. Lunch on the way. Check in at Sigiriya. Evening jeep safari at Minneriya National Park to see wild elephants. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "cee2b77e-92ae-49ac-9b3f-225d3dd2816b",
+        "title": "Lion Rock and Polonnaruwa",
+        "day_number": 2,
+        "package_id": "0ecb8994-4914-4158-be5a-2fc680ab4dfa",
+        "description": "Sunrise climb of Sigiriya Rock. Breakfast, then explore Polonnaruwa's ancient city (Royal Palace, Gal Vihara, Vatadage). Lunch, then return to Colombo (about 5 hours), arriving in the evening.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "742bac80-9ab1-4482-9c6f-c245c15c917e",
+    "slug": "tea-country-escape",
+    "title": "Tea Country Escape (Nuwara Eliya & Horton Plains)",
+    "short_description": "Cool air, green hills and a famous cliff edge. Visit a working tea factory, stroll through \"Little England\" and hike to World's End at sunrise.",
+    "description": "Cool air, green hills and a famous cliff edge. Visit a working tea factory, stroll through \"Little England\" and hike to World's End at sunrise.",
+    "duration_days": 2,
+    "route": "Colombo / Kandy \u2192 Ramboda Falls \u2192 Nuwara Eliya \u2192 Horton Plains \u2192 return",
+    "best_time": "January to March (clearest views); mornings are best year-round",
+    "interests": [
+      "Hill Country",
+      "Adventure"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1624614138166-724f8d9c5780?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Tea factory tour, Horton Plains entrance (estimate, about 5)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 6,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "6c8398b7-3cc9-44ec-80ed-a874415c4af4",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 45,
+        "package_id": "742bac80-9ab1-4482-9c6f-c245c15c917e",
+        "stay_details": "budget hotel or homestay, sites included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "18f1452e-c4d6-4f05-aead-4c7cc70a68ca",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 15,
+        "package_id": "742bac80-9ab1-4482-9c6f-c245c15c917e",
+        "stay_details": "tea-country boutique hotel, dinner included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "f01cda06-3f89-4dff-af7e-140c6ffcc185",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 95,
+        "package_id": "742bac80-9ab1-4482-9c6f-c245c15c917e",
+        "stay_details": "restored tea bungalow, half board, private tea tasting and picnic breakfast in Horton Plains",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "132c44bb-7013-4561-98c2-52443965bd86",
+        "title": "Into the Hills",
+        "day_number": 1,
+        "package_id": "742bac80-9ab1-4482-9c6f-c245c15c917e",
+        "description": "Pickup in Colombo or Kandy and drive up through the tea country. Stop at Ramboda Falls and a tea factory for a tasting. Afternoon walk around Gregory Lake and the old colonial centre of Nuwara Eliya. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "7d419c2e-bd54-44b4-a548-1da15a4beb6f",
+        "title": "World's End",
+        "day_number": 2,
+        "package_id": "742bac80-9ab1-4482-9c6f-c245c15c917e",
+        "description": "Very early start for Horton Plains National Park. Hike the loop to World's End and Baker's Falls. Breakfast, then descend and return to Kandy or Colombo in the late afternoon.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "d43f9a0f-724c-4b87-9e56-c02f373b228f",
+    "slug": "south-coast-beach-escape",
+    "title": "South Coast Beach Escape",
+    "short_description": "A quick beach break with Galle Fort, the Madu River, a night at Mirissa and (in season) a morning of whale watching.",
+    "description": "A quick beach break with Galle Fort, the Madu River, a night at Mirissa and (in season) a morning of whale watching.",
+    "duration_days": 2,
+    "route": "Colombo \u2192 Galle \u2192 Mirissa \u2192 Colombo",
+    "best_time": "November to April",
+    "interests": [
+      "Beaches",
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Turtle hatchery and river boat (about 5), whale watching boat (about 5; Comfort and Signature)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 7,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "749c5755-7e2d-4f18-b18c-5bdae7912de4",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 25,
+        "package_id": "d43f9a0f-724c-4b87-9e56-c02f373b228f",
+        "stay_details": "beach guesthouse, whale watching as add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "e9415db5-ece9-4dbe-a976-13cc80e133b2",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 65,
+        "package_id": "d43f9a0f-724c-4b87-9e56-c02f373b228f",
+        "stay_details": "boutique beach hotel, whale watching, dinner included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "8eb13ae5-18ad-4931-b716-ce3ac89ca97d",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 55,
+        "package_id": "d43f9a0f-724c-4b87-9e56-c02f373b228f",
+        "stay_details": "villa with sea view, half board, private whale watching boat",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "5e0fc918-3c31-44ae-a95e-b904b6b36425",
+        "title": "Fort and Coast",
+        "day_number": 1,
+        "package_id": "d43f9a0f-724c-4b87-9e56-c02f373b228f",
+        "description": "Pickup in Colombo and drive south by expressway. Visit a turtle hatchery and the Madu River, then walk Galle Fort. Sunset at Mirissa and overnight by the beach.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "6ad80018-de52-4c94-bd4f-2ce1ffb5c0fd",
+        "title": "Whales and Waves",
+        "day_number": 2,
+        "package_id": "d43f9a0f-724c-4b87-9e56-c02f373b228f",
+        "description": "Early morning whale watching boat trip from Mirissa (November\u2013April), or a beach morning at other times. Coconut Tree Hill and Weligama, then return to Colombo by expressway.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "163778b1-6125-4ab1-bcda-ecce8816c332",
+    "slug": "yala-safari-escape",
+    "title": "Yala Safari Escape",
+    "short_description": "Two safaris, one night in the wild. Yala has one of the highest leopard densities in the world, with elephants, sloth bears and crocodiles too.",
+    "description": "Two safaris, one night in the wild. Yala has one of the highest leopard densities in the world, with elephants, sloth bears and crocodiles too.",
+    "duration_days": 2,
+    "route": "Colombo / Galle \u2192 Tissamaharama \u2192 Yala \u2192 return",
+    "best_time": "February to July for leopards; check park closure dates in September\u2013October",
+    "interests": [
+      "Wildlife",
+      "Adventure"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Park entrance fees and jeep hire (about 0\u201385 pp per safari when two people share a jeep)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 8,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "dcfa273e-c203-4e8a-bc32-069e1da18db6",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 95,
+        "package_id": "163778b1-6125-4ab1-bcda-ecce8816c332",
+        "stay_details": "guesthouse, one safari included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "ee716b04-6dce-4b3a-b121-5dfdc76bd72b",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 65,
+        "package_id": "163778b1-6125-4ab1-bcda-ecce8816c332",
+        "stay_details": "safari lodge, two safaris, dinner included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "3da8df3c-e374-4fc9-a3bf-5a881d4e8d34",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 65,
+        "package_id": "163778b1-6125-4ab1-bcda-ecce8816c332",
+        "stay_details": "luxury lodge or tented camp, half board, two private jeep safaris with a naturalist guide",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "244d568b-535a-48cc-a3ce-29e3008b146e",
+        "title": "Into the Wild",
+        "day_number": 1,
+        "package_id": "163778b1-6125-4ab1-bcda-ecce8816c332",
+        "description": "Pickup in Colombo or Galle and drive to Tissamaharama. Check in, then head out on an afternoon jeep safari in Yala National Park. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "6c66ba46-73c2-48ef-809b-5dced580eb31",
+        "title": "Dawn Safari",
+        "day_number": 2,
+        "package_id": "163778b1-6125-4ab1-bcda-ecce8816c332",
+        "description": "Pre-dawn start for a morning safari, the best time for leopards. Breakfast at the hotel and return journey.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "8ebd3463-082c-4f94-a29e-b7cb1f177d45",
+    "slug": "hill-country-highlights",
+    "title": "Hill Country Highlights",
+    "short_description": "Temples, tea and one of the world's great train journeys. Kandy's sacred sights, the misty hills of Nuwara Eliya and the viewpoints of Ella.",
+    "description": "Temples, tea and one of the world's great train journeys. Kandy's sacred sights, the misty hills of Nuwara Eliya and the viewpoints of Ella.",
+    "duration_days": 3,
+    "route": "Colombo \u2192 Kandy \u2192 Nuwara Eliya \u2192 Ella",
+    "best_time": "December to March",
+    "interests": [
+      "Hill Country",
+      "Culture & Heritage"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1624614138166-724f8d9c5780?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Temple of the Tooth, Peradeniya, dance show, train ticket, tea factory (about 5 in total). Train tickets sell out early, so the owner should book in advance."
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 9,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "284e6755-4a2b-4aa2-af31-21483e24aee8",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 95,
+        "package_id": "8ebd3463-082c-4f94-a29e-b7cb1f177d45",
+        "stay_details": "guesthouses, second-class reserved train seats",
+        "transport_details": "See description"
+      },
+      {
+        "id": "ab3b6461-edb4-4b4f-b900-91f7eebbde17",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 30,
+        "package_id": "8ebd3463-082c-4f94-a29e-b7cb1f177d45",
+        "stay_details": "3\u20134\u2605 hotels, reserved seats, dinners in Kandy and Nuwara Eliya",
+        "transport_details": "See description"
+      },
+      {
+        "id": "eacd52a0-4e1f-46e6-8fba-6118e3106e80",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 60,
+        "package_id": "8ebd3463-082c-4f94-a29e-b7cb1f177d45",
+        "stay_details": "boutique hotels, first-class or observation-car seats where available, half board, private tea tasting",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "e5f9a8ed-7313-40ef-b0de-3b18283afa39",
+        "title": "Kandy",
+        "day_number": 1,
+        "package_id": "8ebd3463-082c-4f94-a29e-b7cb1f177d45",
+        "description": "Pickup in Colombo or at the airport. Visit the Temple of the Tooth and Peradeniya Botanical Gardens. Evening Kandyan dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "be3478b9-787f-4c52-a765-e26c26872b1c",
+        "title": "Train to the Tea Country",
+        "day_number": 2,
+        "package_id": "8ebd3463-082c-4f94-a29e-b7cb1f177d45",
+        "description": "Ride the scenic hill-country train from Kandy to Nanu Oya while the driver meets you with the car. Tea factory visit and tasting, then a walk around Nuwara Eliya. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "cb22e796-9604-417f-8f32-404116b35973",
+        "title": "Ella",
+        "day_number": 3,
+        "package_id": "8ebd3463-082c-4f94-a29e-b7cb1f177d45",
+        "description": "Drive through the hills to Ella. Walk to the Nine Arch Bridge, Little Adam's Peak and Ravana Falls. Drop-off in Ella, or continue to the south coast or back to Colombo (about 6\u20137 hours; supplement applies).",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "07c78f95-bdcb-4909-b56f-36fcb883a896",
+    "slug": "south-coast-galle-fort",
+    "title": "South Coast & Galle Fort",
+    "short_description": "Golden beaches, a colonial fort, mangrove rivers and, in season, blue whales. The classic south coast, unhurried.",
+    "description": "Golden beaches, a colonial fort, mangrove rivers and, in season, blue whales. The classic south coast, unhurried.",
+    "duration_days": 3,
+    "route": "Colombo \u2192 Bentota \u2192 Galle \u2192 Mirissa \u2192 Colombo",
+    "best_time": "November to April",
+    "interests": [
+      "Beaches",
+      "Culture & Heritage",
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Turtle hatchery and river boat (about 5), whale watching boat (about 5; Comfort and Signature)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 10,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "772b070c-3057-4687-9a9c-9d4f6d6f94d7",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 85,
+        "package_id": "07c78f95-bdcb-4909-b56f-36fcb883a896",
+        "stay_details": "guesthouses in Galle and Mirissa",
+        "transport_details": "See description"
+      },
+      {
+        "id": "ff546d99-5609-4e4a-bc56-859d68d1d395",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 85,
+        "package_id": "07c78f95-bdcb-4909-b56f-36fcb883a896",
+        "stay_details": "boutique hotels, whale watching, dinner at Mirissa",
+        "transport_details": "See description"
+      },
+      {
+        "id": "e41b5ef8-674f-47ec-a9c6-550ad6bc6e03",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 15,
+        "package_id": "07c78f95-bdcb-4909-b56f-36fcb883a896",
+        "stay_details": "fort boutique hotel and cliff villa, half board, private whale watching boat, sunset dinner on the beach",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "c82faadd-67d7-47d7-804e-211776f2e574",
+        "title": "Bentota to Galle",
+        "day_number": 1,
+        "package_id": "07c78f95-bdcb-4909-b56f-36fcb883a896",
+        "description": "Pickup in Colombo and drive south. Turtle hatchery and Madu River boat ride. Afternoon in Galle Fort, ramparts and sunset. Overnight in Galle.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "742a81b3-8975-4640-a403-612d46bcbcc0",
+        "title": "Mirissa",
+        "day_number": 2,
+        "package_id": "07c78f95-bdcb-4909-b56f-36fcb883a896",
+        "description": "Morning whale watching (November\u2013April) or a beach and surf morning. Coconut Tree Hill and Weligama. Free afternoon on the beach. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "24f76aca-a3b1-4c2d-8237-593b5262e53f",
+        "title": "Coast to Colombo",
+        "day_number": 3,
+        "package_id": "07c78f95-bdcb-4909-b56f-36fcb883a896",
+        "description": "Relaxed morning, optional snorkelling or a cooking class, then return by expressway.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "48e6d264-45e3-47a9-882a-4444079079d7",
+    "slug": "cultural-triangle-and-kandy",
+    "title": "Cultural Triangle & Kandy",
+    "short_description": "Sri Lanka's greatest historic sites in one loop: cave temples, a rock fortress, a ruined capital and the last royal city.",
+    "description": "Sri Lanka's greatest historic sites in one loop: cave temples, a rock fortress, a ruined capital and the last royal city.",
+    "duration_days": 3,
+    "route": "Colombo \u2192 Dambulla \u2192 Sigiriya \u2192 Polonnaruwa \u2192 Kandy \u2192 Colombo",
+    "best_time": "Year-round",
+    "interests": [
+      "Culture & Heritage"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1579730591523-28957cdbd045?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Sigiriya (5), Polonnaruwa (0), Dambulla (about ), Temple of the Tooth, Peradeniya, dance show (about 9 in total)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 11,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "fa898407-144a-43e5-b9aa-81961cae578c",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 75,
+        "package_id": "48e6d264-45e3-47a9-882a-4444079079d7",
+        "stay_details": "guesthouses",
+        "transport_details": "See description"
+      },
+      {
+        "id": "635fb88f-cfd1-4283-9c65-4df18eb61c76",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "48e6d264-45e3-47a9-882a-4444079079d7",
+        "stay_details": "3\u20134\u2605 hotels, dinners at both hotels",
+        "transport_details": "See description"
+      },
+      {
+        "id": "221e396a-2c48-4c04-bb16-e0848b4ef7bf",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 35,
+        "package_id": "48e6d264-45e3-47a9-882a-4444079079d7",
+        "stay_details": "boutique hotels, half board, private village lunch experience",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "1c21b1f0-5eb5-409e-9aad-5556f461d9e2",
+        "title": "Dambulla and Sigiriya",
+        "day_number": 1,
+        "package_id": "48e6d264-45e3-47a9-882a-4444079079d7",
+        "description": "Pickup in Colombo and drive north. Visit the Dambulla Cave Temple. Late afternoon at Sigiriya's gardens and village. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "d6823fd7-1659-4c60-8f45-9fb7b1426e86",
+        "title": "Lion Rock and Polonnaruwa",
+        "day_number": 2,
+        "package_id": "48e6d264-45e3-47a9-882a-4444079079d7",
+        "description": "Sunrise climb of Sigiriya Rock. Afternoon at Polonnaruwa's ruins. Drive to Kandy via a spice garden in Matale. Evening dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "736a993f-02d0-4446-8a09-941aa689b986",
+        "title": "Sacred Kandy",
+        "day_number": 3,
+        "package_id": "48e6d264-45e3-47a9-882a-4444079079d7",
+        "description": "Temple of the Tooth and Peradeniya Botanical Gardens, then return to Colombo.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "00e5c863-62ed-4057-a7fa-0ff069a4cffc",
+    "slug": "yala-udawalawe-safari-trail",
+    "title": "Yala & Udawalawe Safari Trail",
+    "short_description": "Two parks, two very different safaris: elephants in Udawalawe and leopards in Yala, with a stop at Galle Fort on the way home.",
+    "description": "Two parks, two very different safaris: elephants in Udawalawe and leopards in Yala, with a stop at Galle Fort on the way home.",
+    "duration_days": 3,
+    "route": "Colombo \u2192 Udawalawe \u2192 Yala \u2192 Galle \u2192 Colombo",
+    "best_time": "February to July for leopards; check Yala closure dates (September\u2013October)",
+    "interests": [
+      "Wildlife",
+      "Adventure"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Udawalawe safari (estimate, about 0 pp), Yala safari (about 2 pp when two share a jeep)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 12,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "5e22c44b-cf3d-4b18-9ad2-8661dc88a218",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 25,
+        "package_id": "00e5c863-62ed-4057-a7fa-0ff069a4cffc",
+        "stay_details": "safari guesthouses, shared or standard jeeps",
+        "transport_details": "See description"
+      },
+      {
+        "id": "6a2c68f5-385a-4284-ad5b-9c5dc58c6268",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 60,
+        "package_id": "00e5c863-62ed-4057-a7fa-0ff069a4cffc",
+        "stay_details": "safari lodges, private jeeps, dinners included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "83fd1362-fc35-468c-ba5f-61ac6bf87c48",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 20,
+        "package_id": "00e5c863-62ed-4057-a7fa-0ff069a4cffc",
+        "stay_details": "luxury lodges or tented camp, half board, private jeeps with naturalist guide",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "61008a06-8866-44dc-bdc8-21705c3acd8a",
+        "title": "Elephants",
+        "day_number": 1,
+        "package_id": "00e5c863-62ed-4057-a7fa-0ff069a4cffc",
+        "description": "Pickup in Colombo and drive to Udawalawe. Lunch, then afternoon safari and the Elephant Transit Home. Overnight in Udawalawe.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "972c885b-82b2-4a6a-a30d-d46deb75de6d",
+        "title": "Leopard Country",
+        "day_number": 2,
+        "package_id": "00e5c863-62ed-4057-a7fa-0ff069a4cffc",
+        "description": "Drive to Yala. Safari in the late afternoon. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "145976d9-57e2-4676-83b3-6f78ec91e12d",
+        "title": "Dawn and Galle",
+        "day_number": 3,
+        "package_id": "00e5c863-62ed-4057-a7fa-0ff069a4cffc",
+        "description": "Early morning Yala safari. Breakfast, then drive to Galle Fort for lunch and a walk, and return to Colombo.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+    "slug": "glimpse-of-sri-lanka",
+    "title": "Glimpse of Sri Lanka",
+    "short_description": "A first taste of the island in four days: elephants, a rock fortress, spice gardens, the Temple of the Tooth and a night in Colombo. Ideal as a short stopover.",
+    "description": "A first taste of the island in four days: elephants, a rock fortress, spice gardens, the Temple of the Tooth and a night in Colombo. Ideal as a short stopover.",
+    "duration_days": 4,
+    "route": "Airport \u2192 Habarana / Sigiriya \u2192 Kandy \u2192 Colombo",
+    "best_time": "Year-round",
+    "interests": [
+      "Culture & Heritage",
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1544626154-db27e5ec0150?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Minneriya safari (about 0), Sigiriya (5), Temple of the Tooth, Peradeniya, dance show (about 00 in total)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 13,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "91046043-5987-4f24-8182-3b5b31912cdd",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 35,
+        "package_id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+        "stay_details": "guesthouses and a budget city hotel",
+        "transport_details": "See description"
+      },
+      {
+        "id": "2408d71b-a63c-4627-b82e-5053db7dd54f",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 25,
+        "package_id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+        "stay_details": "3\u20134\u2605 hotels, dinners in Habarana and Kandy",
+        "transport_details": "See description"
+      },
+      {
+        "id": "5bd146a6-59e0-4000-8a2c-cadbf42cf481",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 0,
+        "package_id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+        "stay_details": "boutique hotels, half board, private jeep with naturalist guide",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "96acf30a-cb87-4792-8c4d-f616c98d42dd",
+        "title": "Arrival and Elephants",
+        "day_number": 1,
+        "package_id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+        "description": "Airport welcome and drive north. Evening jeep safari at Minneriya National Park. Overnight in Habarana or Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "460a5b1b-77c7-439a-ad8b-f0932db254f7",
+        "title": "Lion Rock and Kandy",
+        "day_number": 2,
+        "package_id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+        "description": "Sunrise climb of Sigiriya Rock. Visit a spice garden in Matale. Arrive in Kandy and enjoy an evening dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "c96c8ec4-1d08-41eb-9d72-d08e0ac64bc0",
+        "title": "Sacred Kandy and Colombo",
+        "day_number": 3,
+        "package_id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+        "description": "Temple of the Tooth and Peradeniya Botanical Gardens. Drive to Colombo for a city tour (Fort, Pettah, Galle Face). Overnight in Colombo.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "6d927ac6-7a3b-499b-892b-ff1b494a9b85",
+        "title": "Departure",
+        "day_number": 4,
+        "package_id": "2106c2f3-e4f1-4342-be5c-5f57d1641f25",
+        "description": "Breakfast and transfer to the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+    "slug": "hill-country-tea-trails",
+    "title": "Hill Country & Tea Trails",
+    "short_description": "Ride the famous hill-country train, taste fresh Ceylon tea, hike World's End and cross the Nine Arch Bridge.",
+    "description": "Ride the famous hill-country train, taste fresh Ceylon tea, hike World's End and cross the Nine Arch Bridge.",
+    "duration_days": 4,
+    "route": "Colombo \u2192 Kandy \u2192 Nuwara Eliya \u2192 Ella \u2192 Colombo",
+    "best_time": "December to March",
+    "interests": [
+      "Hill Country",
+      "Adventure"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1624614138166-724f8d9c5780?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Tooth temple, Peradeniya, train ticket, tea factory, Horton Plains (about 0 in total)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 14,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "0b659801-48a2-4048-a25b-287fb7a17478",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 10,
+        "package_id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+        "stay_details": "guesthouses and homestays",
+        "transport_details": "See description"
+      },
+      {
+        "id": "1ca8ecf7-bdf3-4bcf-a3e0-c385e35749d4",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+        "stay_details": "boutique hotels, dinners included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "d259cc49-d9ea-440e-90f7-e95046fd3a3d",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 85,
+        "package_id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+        "stay_details": "tea bungalow and luxury villa, half board, first-class train seats where available, private tea tasting",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "4662bd1b-2b49-4548-9d32-6717fdbba5c1",
+        "title": "Kandy",
+        "day_number": 1,
+        "package_id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+        "description": "Pickup and drive to Kandy. Temple of the Tooth and Peradeniya Botanical Gardens. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "21966f2a-4d6c-4cbe-b055-4fccc1bcbd4e",
+        "title": "Train to Tea Country",
+        "day_number": 2,
+        "package_id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+        "description": "Scenic train from Kandy to Nanu Oya. Tea factory visit. Explore Nuwara Eliya. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "2056fdd0-f80a-4f55-b32a-f4413e83a785",
+        "title": "World's End and Ella",
+        "day_number": 3,
+        "package_id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+        "description": "Sunrise hike at Horton Plains. Drive to Ella. Sunset at Little Adam's Peak. Overnight in Ella.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "86a2112a-6c21-4f8a-afce-8b5fed198188",
+        "title": "Ella to Colombo",
+        "day_number": 4,
+        "package_id": "fab1db1c-1d61-4845-90f9-e522c4298481",
+        "description": "Morning at the Nine Arch Bridge and Ravana Falls, then the long drive back (about 6\u20137 hours).",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+    "slug": "south-coast-beaches-yala",
+    "title": "South Coast Beaches & Yala",
+    "short_description": "Sand, sea and safari. Explore Galle Fort, whale watch from Mirissa and finish with a jeep safari in Yala.",
+    "description": "Sand, sea and safari. Explore Galle Fort, whale watch from Mirissa and finish with a jeep safari in Yala.",
+    "duration_days": 4,
+    "route": "Colombo \u2192 Galle \u2192 Mirissa \u2192 Yala \u2192 Colombo",
+    "best_time": "November to April",
+    "interests": [
+      "Beaches",
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Hatchery and river boat (about 5), whale watching (about 5; Comfort and Signature), Yala safari (about 2)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 15,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "8a12c352-7110-4947-8fc5-d2e6f397eee1",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 45,
+        "package_id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+        "stay_details": "guesthouses, whale watching as an add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "98eb7182-00a2-49a8-a77a-82312641d7b2",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 0,
+        "package_id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+        "stay_details": "boutique hotels, safari lodge, dinners included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "9eef40bb-3dd4-40c0-b764-e7c37dc06aba",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 80,
+        "package_id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+        "stay_details": "luxury villas and tented camp, half board, private whale watching boat, private safari",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "8655635f-c8b6-49ed-9a8e-739a9cb06c4f",
+        "title": "Galle Fort",
+        "day_number": 1,
+        "package_id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+        "description": "Pickup in Colombo, coastal stops at a turtle hatchery and the Madu River, then Galle Fort. Overnight in Galle.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "6eabf0ea-6ea3-4433-8761-145bd255d795",
+        "title": "Whales and Beaches",
+        "day_number": 2,
+        "package_id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+        "description": "Morning whale watching from Mirissa (November\u2013April), beach time and Weligama. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "32d143a7-ddf1-427e-b408-0f53df9a8c62",
+        "title": "Yala",
+        "day_number": 3,
+        "package_id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+        "description": "Drive to Yala and go on an afternoon safari. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "642a5fd3-b44b-4cfe-8b84-3328226470e1",
+        "title": "Dawn and Home",
+        "day_number": 4,
+        "package_id": "ee7c72e6-90ce-48a7-937d-9b3e33012abd",
+        "description": "Early morning safari, breakfast and return to Colombo.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+    "slug": "ancient-cities-deep-dive",
+    "title": "Ancient Cities Deep Dive",
+    "short_description": "For history lovers: Sri Lanka's first capital Anuradhapura, the sacred hill of Mihintale, Sigiriya, Polonnaruwa and the cave temples of Dambulla.",
+    "description": "For history lovers: Sri Lanka's first capital Anuradhapura, the sacred hill of Mihintale, Sigiriya, Polonnaruwa and the cave temples of Dambulla.",
+    "duration_days": 4,
+    "route": "Colombo \u2192 Anuradhapura \u2192 Sigiriya \u2192 Polonnaruwa \u2192 Dambulla \u2192 Colombo",
+    "best_time": "Year-round",
+    "interests": [
+      "Culture & Heritage",
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1544626154-db27e5ec0150?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Anuradhapura (0), Sigiriya (5), Polonnaruwa (0), Dambulla (about ), Minneriya safari (about 0)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 16,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "7881ebda-2244-4b6d-b48d-f7da660c5189",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 85,
+        "package_id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+        "stay_details": "guesthouses",
+        "transport_details": "See description"
+      },
+      {
+        "id": "f9c0eedd-c6b4-4cc2-9bde-2d5d5c40ded4",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 75,
+        "package_id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+        "stay_details": "heritage hotels, dinners included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "5a307004-06b6-49ca-88a3-030362f935e8",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 45,
+        "package_id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+        "stay_details": "boutique heritage resorts, half board, private archaeology-specialist guide for one day",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "b70a5dcc-3bbd-4673-ad49-cdf56b0fa6bc",
+        "title": "Anuradhapura",
+        "day_number": 1,
+        "package_id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+        "description": "Pickup in Colombo and drive to Anuradhapura. Visit the Sri Maha Bodhi tree, great stupas and ancient ponds. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "d722232c-bfa8-474c-b578-8ee721d73625",
+        "title": "Mihintale and Sigiriya",
+        "day_number": 2,
+        "package_id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+        "description": "Sunrise at Mihintale, the cradle of Buddhism in Sri Lanka. Drive to Sigiriya and take an afternoon safari at Minneriya. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "8b492578-f2d5-445e-b87b-0626f459a693",
+        "title": "Lion Rock and Polonnaruwa",
+        "day_number": 3,
+        "package_id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+        "description": "Sunrise climb of Sigiriya Rock. Afternoon exploring Polonnaruwa. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "fb702b9f-6e5c-4f6a-aa4e-6ead110ccc24",
+        "title": "Dambulla and Home",
+        "day_number": 4,
+        "package_id": "68cc07d5-3c1c-4655-9412-4672b1df745f",
+        "description": "Visit the Dambulla Cave Temple, then drive back to Colombo.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+    "slug": "culture-hill-country-5-days",
+    "title": "Culture & Hill Country (5 Days)",
+    "short_description": "Ancient rock fortress, sacred Kandy and the tea hills, connected by a scenic train ride. A well-paced first trip.",
+    "description": "Ancient rock fortress, sacred Kandy and the tea hills, connected by a scenic train ride. A well-paced first trip.",
+    "duration_days": 5,
+    "route": "Airport \u2192 Sigiriya \u2192 Kandy \u2192 Nuwara Eliya \u2192 Colombo",
+    "best_time": "December to March",
+    "interests": [
+      "Culture & Heritage",
+      "Hill Country",
+      "Wildlife"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1544626154-db27e5ec0150?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Minneriya safari, Sigiriya, Tooth temple, Peradeniya, dance show, train ticket (about 17 in total)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 17,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "5eaaa8a5-f4a9-4de6-a26c-e3f94dc0d285",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 15,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "stay_details": "guesthouses, budget city hotel",
+        "transport_details": "See description"
+      },
+      {
+        "id": "69380720-5871-45bd-adc1-f37ea7d4c586",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 65,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "stay_details": "3\u20134\u2605 hotels, four dinners",
+        "transport_details": "See description"
+      },
+      {
+        "id": "489ebffd-4242-46ac-9380-c42186bb8e48",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 320,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "stay_details": "boutique hotels, half board, private jeep, first-class train seats where available",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "63a35a4c-b862-4ce0-b3fe-4f4791b74f2e",
+        "title": "Arrival and Elephants",
+        "day_number": 1,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "description": "Airport welcome and drive north. Evening safari at Minneriya. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "42572d63-cd02-4271-82f6-15902e8ba93e",
+        "title": "Lion Rock to Kandy",
+        "day_number": 2,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "description": "Sunrise climb of Sigiriya Rock, spice garden stop and arrival in Kandy. Evening dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "374404c5-97d9-4f0e-a734-75d36493bbda",
+        "title": "Kandy to the Hills",
+        "day_number": 3,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "description": "Temple of the Tooth and Peradeniya Gardens, then scenic train from Kandy to Nanu Oya. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "96b7ce21-182a-404e-b660-85bc8308f39a",
+        "title": "Tea and Return",
+        "day_number": 4,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "description": "Tea factory visit and colonial town walk, then drive to Colombo via the tea country. Overnight in Colombo.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "f6f89efc-dd14-49bc-b93a-15ea61beabc4",
+        "title": "Departure",
+        "day_number": 5,
+        "package_id": "6548eb1e-1350-4af0-99e2-10744750fdea",
+        "description": "Breakfast and transfer to the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "85393f3f-cc1f-43ca-a119-323370659b72",
+    "slug": "hills-tea-beach-6-days",
+    "title": "Hills, Tea & Beach (6 Days)",
+    "short_description": "Mountains first, then the sea. Trains, tea, waterfalls and viewpoints, followed by two nights on the south coast.",
+    "description": "Mountains first, then the sea. Trains, tea, waterfalls and viewpoints, followed by two nights on the south coast.",
+    "duration_days": 6,
+    "route": "Colombo \u2192 Kandy \u2192 Nuwara Eliya \u2192 Ella \u2192 Mirissa \u2192 Colombo",
+    "best_time": "December to April",
+    "interests": [
+      "Hill Country",
+      "Beaches",
+      "Adventure"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Tooth temple, Peradeniya, train ticket, tea factory, Horton Plains (about 0\u2013135 in total), whale watching for Comfort and Signature"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 18,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "6de78d44-8f7a-4a4a-bdd5-9f66a6b18ab8",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 30,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "stay_details": "guesthouses, whale watching as add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "f628823f-e078-47ab-aad5-937d499464c8",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "stay_details": "boutique hotels, whale watching, dinners included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "dce05d0d-81b0-4f0e-9aab-65ba91e2947c",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 615,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "stay_details": "tea bungalow, luxury villas, half board, private whale watching boat",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "b19f4466-73a6-4de2-83a1-0a9c1810084e",
+        "title": "Kandy",
+        "day_number": 1,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "description": "Pickup and drive to Kandy. Temple of the Tooth and lake. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "19e66b9e-4227-4542-a8af-72c02bef32e7",
+        "title": "Train to Nuwara Eliya",
+        "day_number": 2,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "description": "Peradeniya Gardens, then train to Nanu Oya and tea factory visit. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "b3bbe6a8-c924-4078-8d87-81c8e934c7bb",
+        "title": "World's End and Ella",
+        "day_number": 3,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "description": "Sunrise at Horton Plains, then drive to Ella. Sunset at Little Adam's Peak. Overnight in Ella.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "c43dd44a-707f-442b-bbf9-863428cdee6f",
+        "title": "Ella to the Coast",
+        "day_number": 4,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "description": "Nine Arch Bridge, then a scenic drive down to the south coast. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "f24ff99f-a769-40bc-ab45-ff036e7219d6",
+        "title": "Whales and Beach",
+        "day_number": 5,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "description": "Whale watching (November\u2013April) and free beach time. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "23855218-d4d6-4514-bb43-d0283742824a",
+        "title": "Departure",
+        "day_number": 6,
+        "package_id": "85393f3f-cc1f-43ca-a119-323370659b72",
+        "description": "Galle Fort stop on the way to Colombo or the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+    "slug": "sri-lanka-essentials-7-days",
+    "title": "Sri Lanka Essentials (7 Days)",
+    "short_description": "Our signature week: ancient cities, sacred temples, tea hills, a leopard safari and a night in Galle Fort. Everything a first-time visitor wants to see.",
+    "description": "Our signature week: ancient cities, sacred temples, tea hills, a leopard safari and a night in Galle Fort. Everything a first-time visitor wants to see.",
+    "duration_days": 7,
+    "route": "Airport \u2192 Sigiriya \u2192 Kandy \u2192 Nuwara Eliya \u2192 Yala \u2192 Galle \u2192 Airport",
+    "best_time": "December to March",
+    "interests": [
+      "Culture & Heritage",
+      "Wildlife",
+      "Hill Country"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Sigiriya, Polonnaruwa, Minneriya safari, Tooth temple, Peradeniya, dance show, train ticket, Yala safari (about 34 in total)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 19,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "a2e1675d-1476-450f-a6e9-16bb474d1fd6",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 75,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "stay_details": "guesthouses and simple hotels",
+        "transport_details": "See description"
+      },
+      {
+        "id": "f7b1bde9-867e-49f0-b997-a79cdade235c",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 40,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "stay_details": "3\u20134\u2605 hotels, safari lodge, six dinners",
+        "transport_details": "See description"
+      },
+      {
+        "id": "4cc354d8-a924-4897-8ee3-0257b195fe7a",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 0,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "stay_details": "boutique hotels and luxury lodge, half board, private jeeps with naturalist guides, first-class train seats where available",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "08d3f7f4-437e-4e11-8f57-5f847ea823f2",
+        "title": "Arrival and Elephants",
+        "day_number": 1,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "description": "Airport welcome and drive north. Evening safari at Minneriya. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "d3303901-3d12-49ad-ad67-44c09d5d9190",
+        "title": "Lion Rock and Polonnaruwa",
+        "day_number": 2,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "description": "Sunrise climb of Sigiriya Rock, then explore Polonnaruwa. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "120fcf80-8eb1-4fbe-9982-f189dfcf972b",
+        "title": "Kandy",
+        "day_number": 3,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "description": "Dambulla Cave Temple or spice garden on the way. Temple of the Tooth, Peradeniya Gardens and the evening dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "9a59a354-d6ec-4d2d-afdb-c93a7a95f277",
+        "title": "Train to the Hills",
+        "day_number": 4,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "description": "Scenic train from Kandy to Nanu Oya, tea factory visit and a colonial walk in Nuwara Eliya. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "da98d516-d67c-4e7b-8420-adf94bc08c99",
+        "title": "Down to Yala",
+        "day_number": 5,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "description": "Descend from the hills to Yala. Evening safari for leopards and elephants. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "a6e573a0-c492-4c47-8778-1558b2d186d5",
+        "title": "Galle Fort",
+        "day_number": 6,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "description": "Drive to the south coast. Explore Galle Fort's ramparts and streets. Overnight in Galle.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "0930088d-306e-4cd4-87b7-124d0b313f49",
+        "title": "Departure",
+        "day_number": 7,
+        "package_id": "f19cefb2-64ed-4ae2-8f2c-11810a529da2",
+        "description": "Breakfast and transfer to the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+    "slug": "wildlife-beaches-7-days",
+    "title": "Wildlife & Beaches (7 Days)",
+    "short_description": "Elephants and leopards, then whales and beaches. A week on the wild south of the island.",
+    "description": "Elephants and leopards, then whales and beaches. A week on the wild south of the island.",
+    "duration_days": 7,
+    "route": "Colombo \u2192 Udawalawe \u2192 Yala \u2192 Mirissa \u2192 Galle \u2192 Colombo",
+    "best_time": "November to April",
+    "interests": [
+      "Wildlife",
+      "Beaches"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Udawalawe and Yala safaris, Elephant Transit Home, Galle Fort (about 50\u2013300 depending on tier), whale watching for Comfort and Signature"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 20,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "a040ee3a-631d-4edc-8d9d-04f249bd3567",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 80,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "stay_details": "guesthouses, one Yala safari, whale watching as an add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "b32c8ce8-8ee5-4b74-a347-a59c23549e5f",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 120,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "stay_details": "safari lodges and boutique hotels, two Yala safaris, whale watching, dinners included",
+        "transport_details": "See description"
+      },
+      {
+        "id": "f2dda963-0af1-418a-a038-bd794ebf9f60",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 130,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "stay_details": "luxury lodges and villas, half board, private jeeps with naturalist guides, private whale watching boat",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "326d0fc9-b7d4-4265-ac9a-f097d003004b",
+        "title": "Elephants",
+        "day_number": 1,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "description": "Pickup and drive to Udawalawe. Evening safari. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "4f5103d4-8ac1-45ca-b9f8-f7e5ee5aef0f",
+        "title": "Transit Home and Yala",
+        "day_number": 2,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "description": "Visit the Elephant Transit Home, then drive to Yala. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "810c1cfc-f2c2-43a6-a782-394a0b76c568",
+        "title": "Leopard Day",
+        "day_number": 3,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "description": "Dawn safari in Yala, rest at the lodge and optional second safari (Comfort and Signature). Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "c7930aad-9179-4510-8d1d-8324ca19ae5d",
+        "title": "To the Coast",
+        "day_number": 4,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "description": "Drive to Mirissa. Beach afternoon and sunset. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "e8b55e57-627b-4f47-a91d-07301f876c1b",
+        "title": "Whales",
+        "day_number": 5,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "description": "Morning whale watching (November\u2013April), beach or surf lesson in the afternoon. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "dbdf75fb-cf29-4b71-9505-90c8c419ed13",
+        "title": "Galle Fort",
+        "day_number": 6,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "description": "Coastal drive to Galle. Explore the Fort. Overnight in Galle.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "cd967eec-ff20-4816-bc6e-14bd56d7e838",
+        "title": "Departure",
+        "day_number": 7,
+        "package_id": "14ff027f-df19-4d0e-8af2-f064eafbe220",
+        "description": "Transfer to Colombo or the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+    "slug": "romance-in-paradise-8-days",
+    "title": "Romance in Paradise (8 Days)",
+    "short_description": "A honeymoon or anniversary trip: ancient wonders, misty tea hills, a scenic train and a beach finale. Romantic touches are built into the Comfort and Signature tiers.",
+    "description": "A honeymoon or anniversary trip: ancient wonders, misty tea hills, a scenic train and a beach finale. Romantic touches are built into the Comfort and Signature tiers.",
+    "duration_days": 8,
+    "route": "Airport \u2192 Sigiriya \u2192 Kandy \u2192 Nuwara Eliya \u2192 Ella \u2192 Mirissa \u2192 Airport",
+    "best_time": "December to April",
+    "interests": [
+      "Beaches",
+      "Hill Country",
+      "Culture & Heritage"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Sigiriya, Tooth temple, Peradeniya, train ticket, tea factory, Horton Plains, Galle Fort (about 17 for Essential, 72 with whale watching for Comfort and Signature)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 21,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "c3ac71dd-f039-4ab2-9936-2599b1ec13bb",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 95,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "stay_details": "guesthouses, whale watching as an add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "7c0dfc2c-8e73-4bea-8f63-2938a011e5b5",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 90,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "stay_details": "boutique hotels, room decoration on arrival, one candlelit dinner, whale watching",
+        "transport_details": "See description"
+      },
+      {
+        "id": "96092c77-36f4-42e8-aec4-52cda85e8ccb",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 305,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "stay_details": "luxury villas, half board, private sunset dinner on the beach, couple's spa session, private whale watching boat",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "9fa84b8f-83ac-422e-aebf-02eed83d6e10",
+        "title": "Arrival",
+        "day_number": 1,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Airport welcome, drive north and settle in at Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "52acc4eb-c4fd-448b-a2ba-f77d649f6b7e",
+        "title": "Lion Rock",
+        "day_number": 2,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Sunrise climb of Sigiriya Rock, afternoon at leisure. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "1abbc191-f9a6-403a-9ceb-4c45b195aae5",
+        "title": "Kandy",
+        "day_number": 3,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Temple of the Tooth, botanical gardens and evening dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "9ba042ac-0801-4fc8-8cd4-8f7c68b5703d",
+        "title": "Train to Nuwara Eliya",
+        "day_number": 4,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Scenic train, tea factory and colonial walk. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "36c1cf82-6b41-488c-b030-8ebdfe378c11",
+        "title": "World's End and Ella",
+        "day_number": 5,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Sunrise at Horton Plains, then on to Ella. Sunset at Little Adam's Peak. Overnight in Ella.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "fb824833-a953-4569-9d78-be314ce29cb5",
+        "title": "To the Coast",
+        "day_number": 6,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Nine Arch Bridge, then a scenic drive to Mirissa. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "4d13b2bd-004c-4986-a0e2-ac3bc26be981",
+        "title": "Whales and Beach",
+        "day_number": 7,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Whale watching (November\u2013April) and a beach afternoon. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "2b72169e-c4c2-4587-960a-5654c5c7224d",
+        "title": "Departure",
+        "day_number": 8,
+        "package_id": "4c79a484-75ae-4265-bd03-c7e338ef17f6",
+        "description": "Galle Fort stop on the way to the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+    "slug": "wildlife-grand-safari-9-days",
+    "title": "Wildlife Grand Safari (9 Days)",
+    "short_description": "Five national parks in nine days: leopards and sloth bears in Wilpattu, elephants at Minneriya, Horton Plains, Udawalawe and Yala, with whale watching to finish.",
+    "description": "Five national parks in nine days: leopards and sloth bears in Wilpattu, elephants at Minneriya, Horton Plains, Udawalawe and Yala, with whale watching to finish.",
+    "duration_days": 9,
+    "route": "Airport \u2192 Wilpattu \u2192 Sigiriya \u2192 Nuwara Eliya \u2192 Udawalawe \u2192 Yala \u2192 Mirissa \u2192 Galle \u2192 Airport",
+    "best_time": "February to July (check Yala closure dates in September\u2013October)",
+    "interests": [
+      "Wildlife",
+      "Adventure",
+      "Hill Country"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Wilpattu, Minneriya, Udawalawe and Yala safaris, Sigiriya, Horton Plains, Galle Fort (about 52 for Essential, 07 with whale watching for Comfort and Signature). Wilpattu and Udawalawe costs are estimates."
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 22,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "8a3c53a8-5012-4920-85f9-50a98ee5c9df",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 40,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "stay_details": "guesthouses and simple lodges, whale watching as an add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "b7486b2c-a530-4172-b04d-92a751df9a2e",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 490,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "stay_details": "safari lodges and boutique hotels, dinners included, whale watching",
+        "transport_details": "See description"
+      },
+      {
+        "id": "c2cd3478-2942-4ab6-98eb-f11b9aa0f4bf",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 810,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "stay_details": "luxury tented camps and lodges, half board, private jeeps with naturalist guides, private whale watching boat",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "eef201bf-9cf1-4b78-901b-a11f460d2b05",
+        "title": "To the Northwest",
+        "day_number": 1,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Airport welcome and drive to Wilpattu. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "df3e2f48-ef49-49e7-af75-89f06e0a5395",
+        "title": "Wilpattu",
+        "day_number": 2,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Morning jeep safari, then transfer to Sigiriya. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "1855a0a6-c59b-4cbc-abfe-27d35b47289d",
+        "title": "Minneriya",
+        "day_number": 3,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Sunrise at Sigiriya Rock, then an afternoon safari at Minneriya. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "170f0a3a-e2cc-42a0-bc7d-09e0ac675ca3",
+        "title": "To the Hills",
+        "day_number": 4,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Drive to Nuwara Eliya via Kandy. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "7e902d69-e035-4441-a94e-c8fb5bd2a7aa",
+        "title": "Horton Plains and Udawalawe",
+        "day_number": 5,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Sunrise hike at World's End, then descend to Udawalawe for an evening safari. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "4bf4df6d-5e1e-4fae-ad65-eca3b7dc28fd",
+        "title": "Elephants to Leopards",
+        "day_number": 6,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Transit Home visit, then drive to Yala for an afternoon safari. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "993c0783-4e07-4883-82f3-6211b29af9a8",
+        "title": "Dawn in Yala",
+        "day_number": 7,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Early safari, then drive to Mirissa. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "f373e477-95bf-417e-b4f8-6107821312db",
+        "title": "Whales and Galle",
+        "day_number": 8,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Whale watching (November\u2013April), then Galle Fort. Overnight in Galle.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "13be91fa-0f75-4a98-b9c8-a35ebf752606",
+        "title": "Departure",
+        "day_number": 9,
+        "package_id": "682b42bd-b050-4957-a46b-88b72485a3a2",
+        "description": "Transfer to the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+    "slug": "grand-island-loop-10-days",
+    "title": "Grand Island Loop (10 Days)",
+    "short_description": "The full island in ten days: heritage cities, tea hills, the Ella train, a leopard safari and the southern beaches. Our most complete round trip.",
+    "description": "The full island in ten days: heritage cities, tea hills, the Ella train, a leopard safari and the southern beaches. Our most complete round trip.",
+    "duration_days": 10,
+    "route": "Airport \u2192 Sigiriya \u2192 Kandy \u2192 Nuwara Eliya \u2192 Ella \u2192 Yala \u2192 Mirissa \u2192 Galle \u2192 Colombo",
+    "best_time": "December to March",
+    "interests": [
+      "Culture & Heritage",
+      "Wildlife",
+      "Hill Country",
+      "Beaches"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Sigiriya, Polonnaruwa, Minneriya, Dambulla, Tooth temple, Peradeniya, train ticket, Horton Plains, tea factory, Yala safari, Galle Fort (about 76 for Essential, 31 with whale watching for Comfort and Signature)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": true,
+    "is_published": true,
+    "sort_order": 23,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "88ee9750-095a-40cc-9673-65036fc35273",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 5,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "stay_details": "guesthouses and homestays, whale watching as an add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "975d4e10-009f-4a68-8626-d2addc2e3714",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 515,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "stay_details": "3\u20134\u2605 hotels and lodges, dinners included, whale watching",
+        "transport_details": "See description"
+      },
+      {
+        "id": "0a7b76ee-25cd-42e9-af94-4cde9b4b12eb",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 990,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "stay_details": "boutique hotels and luxury lodges, half board, private jeeps, first-class train seats where available, private whale watching boat",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "4de13676-7f0d-4793-9d09-7c8adaa94024",
+        "title": "Arrival",
+        "day_number": 1,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Airport welcome and drive north. Evening safari at Minneriya. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "a52f68c2-193d-42b0-9e4c-e1d9deafa7af",
+        "title": "Lion Rock and Polonnaruwa",
+        "day_number": 2,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Sunrise climb of Sigiriya Rock, afternoon at Polonnaruwa. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "6bf34415-27fa-4850-bebf-d5cd59ed51d3",
+        "title": "Dambulla and Kandy",
+        "day_number": 3,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Dambulla Cave Temple, Matale spice garden, then Kandy and the dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "7561857c-aae0-434b-89dc-f128c7a27f77",
+        "title": "Sacred Kandy and the Train",
+        "day_number": 4,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Temple of the Tooth and Peradeniya Gardens, then the scenic train to Nanu Oya. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "2926d86e-881f-4bfb-92d9-2d2b61a46194",
+        "title": "Tea and World's End",
+        "day_number": 5,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Horton Plains at sunrise, then a tea factory visit and a colonial walk. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "18b1d833-1589-4a6f-bfb6-02b8efa7966d",
+        "title": "Ella",
+        "day_number": 6,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Scenic route to Ella. Nine Arch Bridge, Little Adam's Peak, Ravana Falls. Overnight in Ella.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "04e52b5f-2d1b-4b7b-b71c-22585ca5d7e0",
+        "title": "Yala",
+        "day_number": 7,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Drive to Yala for an afternoon safari. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "279eb797-74b6-463a-8616-6317be0ccf58",
+        "title": "Dawn Safari and Mirissa",
+        "day_number": 8,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Early safari, then drive to Mirissa. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "e25de98c-9c7b-4035-a96c-095835b3b382",
+        "title": "Whales and Galle",
+        "day_number": 9,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Whale watching (November\u2013April), then Galle Fort. Overnight in Galle.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "441613bd-20a8-4eba-82f5-3e78bd1ad6a1",
+        "title": "Departure",
+        "day_number": 10,
+        "package_id": "d92adba4-eedf-4bc6-8037-a29b88309800",
+        "description": "Transfer to Colombo or the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  },
+  {
+    "id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+    "slug": "complete-sri-lanka-14-days",
+    "title": "Complete Sri Lanka (14 Days)",
+    "short_description": "Two weeks at a relaxed pace with two-night stays at the key stops. Ancient capitals, tea country, two safaris and time to unwind on the south coast.",
+    "description": "Two weeks at a relaxed pace with two-night stays at the key stops. Ancient capitals, tea country, two safaris and time to unwind on the south coast.",
+    "duration_days": 14,
+    "route": "Airport \u2192 Anuradhapura \u2192 Sigiriya \u2192 Kandy \u2192 Nuwara Eliya \u2192 Ella \u2192 Udawalawe / Yala \u2192 Mirissa \u2192 Galle \u2192 Airport",
+    "best_time": "December to March",
+    "interests": [
+      "Culture & Heritage",
+      "Wildlife",
+      "Hill Country",
+      "Beaches",
+      "Adventure"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1588665069279-d10e5bd73b22?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "inclusions": [
+      "Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary",
+      "Fuel, highway tolls, parking, driver meals and accommodation",
+      "Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans",
+      "Accommodation as per the chosen tier, on twin-share basis with breakfast",
+      "Entrance fees for the main sites listed under 'Extra inclusions' for each plan",
+      "Government taxes and service charges at hotels",
+      "Bottled water in the vehicle",
+      "24-hour WhatsApp support from the Serendib Days team",
+      "Anuradhapura, Sigiriya, Polonnaruwa, Minneriya, Dambulla, Tooth temple, Peradeniya, train ticket, Horton Plains, tea factory, Udawalawe, Yala, Galle (about 66 for Essential, 21 with whale watching for Comfort and Signature)"
+    ],
+    "exclusions": [
+      "International flights and travel insurance",
+      "Meals not mentioned, drinks and personal expenses",
+      "Entrance fees and activities not listed",
+      "Camera or video permit fees at some sites",
+      "Tips (drivers and guides are usually tipped about $5\u201310 per day, given at the end of the trip)",
+      "Peak-season hotel supplements (Dec\u2013Apr and Jul\u2013Aug)",
+      "Single room supplement"
+    ],
+    "notes": null,
+    "is_featured": false,
+    "is_published": true,
+    "sort_order": 24,
+    "created_at": "2026-09-28T10:10:35.493243+00:00",
+    "package_tiers": [
+      {
+        "id": "ab748a73-2ce5-4c99-a789-cd893df78661",
+        "tier": "essential",
+        "extras": "None",
+        "price_usd": 255,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "stay_details": "guesthouses and homestays, whale watching as an add-on",
+        "transport_details": "See description"
+      },
+      {
+        "id": "bb5858c6-d271-4c4a-a9d4-fe7796676ba8",
+        "tier": "comfort",
+        "extras": "None",
+        "price_usd": 100,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "stay_details": "boutique hotels and safari lodges, dinners included, whale watching",
+        "transport_details": "See description"
+      },
+      {
+        "id": "f39db4c3-6f1e-458c-8c62-31bceb1a157c",
+        "tier": "signature",
+        "extras": "None",
+        "price_usd": 140,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "stay_details": "luxury hotels and villas, half board, private jeeps with naturalist guides, first-class train seats where available, private whale watching boat, one cooking class or spa session",
+        "transport_details": "See description"
+      }
+    ],
+    "itinerary_days": [
+      {
+        "id": "5ae65fa5-d73c-4693-992b-82d92fe717a9",
+        "title": "Arrival",
+        "day_number": 1,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Airport welcome and drive to Anuradhapura. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "95c30609-5b47-4513-b961-5b890897b01d",
+        "title": "Sacred City",
+        "day_number": 2,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Anuradhapura's stupas and Bodhi tree, and Mihintale at sunset. Drive to Sigiriya. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "d7e06b67-2f8b-41a8-bc36-79e8858814d5",
+        "title": "Lion Rock",
+        "day_number": 3,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Sunrise climb of Sigiriya Rock and afternoon safari at Minneriya. Overnight in Sigiriya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "e27ed26e-e1fd-417a-9959-f95cd630c6ec",
+        "title": "Polonnaruwa and Kandy",
+        "day_number": 4,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Explore Polonnaruwa, then drive to Kandy via Dambulla. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "1ab4cc20-f540-49dd-b7e1-5c18c9a979d0",
+        "title": "Kandy at Leisure",
+        "day_number": 5,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Temple of the Tooth, Peradeniya Gardens, dance show. Overnight in Kandy.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "f6bfcde9-ab2f-420e-8dbb-25dc59d44ab9",
+        "title": "Train to Tea Country",
+        "day_number": 6,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Scenic train to Nanu Oya and tea factory visit. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "92e221a1-fcc9-4092-8716-080f53a6c72c",
+        "title": "World's End",
+        "day_number": 7,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Sunrise hike at Horton Plains, afternoon at leisure. Overnight in Nuwara Eliya.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "6e015a70-511b-4021-8fc7-57bd9f683bef",
+        "title": "Ella",
+        "day_number": 8,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Scenic drive to Ella. Little Adam's Peak. Overnight in Ella.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "92ae1d7b-39c0-481d-afc2-9aff7027dec6",
+        "title": "Ella at Leisure",
+        "day_number": 9,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Nine Arch Bridge, Ravana Falls, optional cooking class. Overnight in Ella.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "5e548747-66cc-457e-8afd-47e201c6abac",
+        "title": "Udawalawe and Yala",
+        "day_number": 10,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Udawalawe safari on the way, then on to Yala. Overnight near the park.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "8ec00e88-0b69-47b2-97a6-b73d8cb06e80",
+        "title": "Dawn Safari and Mirissa",
+        "day_number": 11,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Early safari in Yala, then the drive to Mirissa. Overnight there.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "5a071f34-4a98-4818-ab4b-405e03a23e07",
+        "title": "Whales and Beach",
+        "day_number": 12,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Whale watching (November\u2013April) and free time. Overnight in Mirissa.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "d6f8e552-5c11-472d-a844-22b3e186710f",
+        "title": "Galle",
+        "day_number": 13,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Galle Fort, turtle hatchery and Madu River. Overnight in Galle.",
+        "overnight_location": "Check route"
+      },
+      {
+        "id": "18d25477-5f2e-4073-863b-55cef9e972f4",
+        "title": "Departure",
+        "day_number": 14,
+        "package_id": "7722a939-ac20-42d9-b3b4-1524ab7a9770",
+        "description": "Transfer to the airport.",
+        "overnight_location": "Check route"
+      }
+    ]
+  }
+]

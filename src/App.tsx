@@ -12,13 +12,15 @@ const FAQ = lazy(() => import('./pages/FAQ'));
 const Privacy = lazy(() => import('./pages/Privacy'));
 const Terms = lazy(() => import('./pages/Terms'));
 const NotFound = lazy(() => import('./pages/NotFound'));
+const Admin = lazy(() => import('./pages/Admin'));
 
 function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
-        <Suspense fallback={<div className="flex min-h-screen items-center justify-center"><div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent"></div></div>}>
+        <Suspense fallback={<div className="flex min-h-screen items-center justify-center bg-slate-50"><div className="h-10 w-10 animate-spin rounded-full border-4 border-primary border-t-transparent"></div></div>}>
           <Routes>
+            <Route path="/admin" element={<Admin />} />
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
               <Route path="packages" element={<Packages />} />
