@@ -1306,12 +1306,14 @@ export default function Admin() {
 
                 <button 
                   onClick={() => {
-                    const blob = new Blob([JSON.stringify(packages, null, 2)], { type: 'application/json' });
-                    const url = URL.createObjectURL(blob);
+                    const jsonStr = JSON.stringify(packages, null, 2);
+                    const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(jsonStr);
                     const a = document.createElement('a');
-                    a.href = url;
+                    a.href = dataUri;
                     a.download = `serendib_days_packages_backup_${new Date().toISOString().slice(0, 10)}.json`;
+                    document.body.appendChild(a);
                     a.click();
+                    document.body.removeChild(a);
                     showToast('Backup JSON downloaded');
                   }}
                   className="w-full py-3 px-4 bg-slate-900 hover:bg-slate-800 text-white font-medium rounded-xl text-sm flex items-center justify-center gap-2 transition-colors shadow-sm"

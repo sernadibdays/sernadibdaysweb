@@ -179,56 +179,110 @@ export const savePackageFull = async (
   }
   localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedList));
 
-  // Sync to Supabase
+  // Sync to Supabase (using schema-exact columns)
   try {
-    const { error: pkgError } = await supabase
+    const packagePayload = {
+      id: fullPackage.id,
+      slug: fullPackage.slug,
+      title: fullPackage.title,
+      short_description: fullPackage.short_description,
+      description: fullPackage.description,
+      duration_days: fullPackage.duration_days,
+      route: fullPackage.route,
+      best_time: fullPackage.best_time,
+      interests: fullPackage.interests,
+      cover_image: fullPackage.cover_image,
+      gallery: fullPackage.gallery,
+      inclusions: fullPackage.inclusions,
+      exclusions: fullPackage.exclusions,
+      notes: fullPackage.notes,
+      is_featured: fullPackage.is_featured,
+      is_published: fullPackage.is_published,
+      sort_order: fullPackage.sort_order
+    };
+
+    // Check if package already exists in Supabase
+    const { data: existingPkg } = await supabase
       .from('packages')
-      .upsert({
-        id: fullPackage.id,
-        slug: fullPackage.slug,
-        title: fullPackage.title,
-        short_description: fullPackage.short_description,
-        description: fullPackage.description,
-        duration_days: fullPackage.duration_days,
-        route: fullPackage.route,
-        best_time: fullPackage.best_time,
-        interests: fullPackage.interests,
-        cover_image: fullPackage.cover_image,
-        gallery: fullPackage.gallery,
-        inclusions: fullPackage.inclusions,
-        exclusions: fullPackage.exclusions,
-        notes: fullPackage.notes,
-        is_featured: fullPackage.is_featured,
-        is_published: fullPackage.is_published,
-        sort_order: fullPackage.sort_order,
-        updated_at: new Date().toISOString()
-      }, { onConflict: 'id' });
+      .select('id')
+      .eq('id', fullPackage.id)
+      .maybeSingle();
+
+    let pkgError = null;
+    if (existingPkg) {
+      const { error } = await supabase
+        .from('packages')
+        .update(packagePayload)
+        .eq('id', fullPackage.id);
+      pkgError = error;
+    } else {
+      const { error } = await supabase
+        .from('packages')
+        .insert([packagePayload]);
+      pkgError = error;
+    }
 
     if (!pkgError) {
-      // Upsert tiers
+      // Sync tiers
       for (const tier of formattedTiers) {
-        await supabase.from('package_tiers').upsert({
-          id: tier.id,
+        const tierPayload = {
           package_id: packageId,
           tier: tier.tier,
           price_usd: tier.price_usd,
           stay_details: tier.stay_details,
           transport_details: tier.transport_details,
           extras: tier.extras
-        }, { onConflict: 'package_id, tier' });
+        };
+
+        const { data: existingTier } = await supabase
+          .from('package_tiers')
+          .select('id')
+          .eq('package_id', packageId)
+          .eq('tier', tier.tier)
+          .maybeSingle();
+
+        if (existingTier) {
+          await supabase
+            .from('package_tiers')
+            .update(tierPayload)
+            .eq('id', existingTier.id);
+        } else {
+          await supabase
+            .from('package_tiers')
+            .insert([{ ...tierPayload, id: tier.id }]);
+        }
       }
 
-      // Upsert days
+      // Sync itinerary days
       for (const day of formattedDays) {
-        await supabase.from('itinerary_days').upsert({
-          id: day.id,
+        const dayPayload = {
           package_id: packageId,
           day_number: day.day_number,
           title: day.title,
           description: day.description,
           overnight_location: day.overnight_location
-        }, { onConflict: 'package_id, day_number' });
+        };
+
+        const { data: existingDay } = await supabase
+          .from('itinerary_days')
+          .select('id')
+          .eq('package_id', packageId)
+          .eq('day_number', day.day_number)
+          .maybeSingle();
+
+        if (existingDay) {
+          await supabase
+            .from('itinerary_days')
+            .update(dayPayload)
+            .eq('id', existingDay.id);
+        } else {
+          await supabase
+            .from('itinerary_days')
+            .insert([{ ...dayPayload, id: day.id }]);
+        }
       }
+    } else {
+      console.warn('Supabase package sync error (saved locally):', pkgError.message);
     }
   } catch (err) {
     console.warn('Could not sync package update to Supabase, saved locally:', err);

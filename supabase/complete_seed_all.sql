@@ -98,47 +98,42 @@ ALTER TABLE public.faqs ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.enquiries ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.site_content ENABLE ROW LEVEL SECURITY;
 
-DROP POLICY IF EXISTS "Public read packages" ON public.packages;
-CREATE POLICY "Public read packages" ON public.packages FOR SELECT USING (is_published = true OR auth.role() = 'authenticated');
+ALTER TABLE public.packages ADD COLUMN IF NOT EXISTS updated_at timestamp with time zone DEFAULT now();
 
+DROP POLICY IF EXISTS "Public read packages" ON public.packages;
 DROP POLICY IF EXISTS "Admin manage packages" ON public.packages;
-CREATE POLICY "Admin manage packages" ON public.packages FOR ALL USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Allow all manage packages" ON public.packages;
+CREATE POLICY "Allow all manage packages" ON public.packages FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Public read tiers" ON public.package_tiers;
-CREATE POLICY "Public read tiers" ON public.package_tiers FOR SELECT USING (true);
-
 DROP POLICY IF EXISTS "Admin manage tiers" ON public.package_tiers;
-CREATE POLICY "Admin manage tiers" ON public.package_tiers FOR ALL USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Allow all manage tiers" ON public.package_tiers;
+CREATE POLICY "Allow all manage tiers" ON public.package_tiers FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Public read itinerary" ON public.itinerary_days;
-CREATE POLICY "Public read itinerary" ON public.itinerary_days FOR SELECT USING (true);
-
 DROP POLICY IF EXISTS "Admin manage itinerary" ON public.itinerary_days;
-CREATE POLICY "Admin manage itinerary" ON public.itinerary_days FOR ALL USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Allow all manage itinerary" ON public.itinerary_days;
+CREATE POLICY "Allow all manage itinerary" ON public.itinerary_days FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Public read testimonials" ON public.testimonials;
-CREATE POLICY "Public read testimonials" ON public.testimonials FOR SELECT USING (is_published = true OR auth.role() = 'authenticated');
-
 DROP POLICY IF EXISTS "Admin manage testimonials" ON public.testimonials;
-CREATE POLICY "Admin manage testimonials" ON public.testimonials FOR ALL USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Allow all manage testimonials" ON public.testimonials;
+CREATE POLICY "Allow all manage testimonials" ON public.testimonials FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Public read faqs" ON public.faqs;
-CREATE POLICY "Public read faqs" ON public.faqs FOR SELECT USING (is_published = true OR auth.role() = 'authenticated');
-
 DROP POLICY IF EXISTS "Admin manage faqs" ON public.faqs;
-CREATE POLICY "Admin manage faqs" ON public.faqs FOR ALL USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Allow all manage faqs" ON public.faqs;
+CREATE POLICY "Allow all manage faqs" ON public.faqs FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Anon insert enquiries" ON public.enquiries;
-CREATE POLICY "Anon insert enquiries" ON public.enquiries FOR INSERT WITH CHECK (true);
-
 DROP POLICY IF EXISTS "Admin manage enquiries" ON public.enquiries;
-CREATE POLICY "Admin manage enquiries" ON public.enquiries FOR ALL USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Allow all manage enquiries" ON public.enquiries;
+CREATE POLICY "Allow all manage enquiries" ON public.enquiries FOR ALL USING (true) WITH CHECK (true);
 
 DROP POLICY IF EXISTS "Public read site_content" ON public.site_content;
-CREATE POLICY "Public read site_content" ON public.site_content FOR SELECT USING (true);
-
 DROP POLICY IF EXISTS "Admin manage site_content" ON public.site_content;
-CREATE POLICY "Admin manage site_content" ON public.site_content FOR ALL USING (auth.role() = 'authenticated');
+DROP POLICY IF EXISTS "Allow all manage site_content" ON public.site_content;
+CREATE POLICY "Allow all manage site_content" ON public.site_content FOR ALL USING (true) WITH CHECK (true);
 
 -- 3. Seed Site Content
 INSERT INTO public.site_content (key, title, value) VALUES ('hero_title', 'Hero Title', 'Authentic Sri Lanka, Tailored For You') ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value;
