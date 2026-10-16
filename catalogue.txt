@@ -1,0 +1,654 @@
+# Serendib Days — Sample Package Catalogue (Seed Content)
+
+## 0. Instructions for Gemini (read first)
+
+This file contains 24 sample travel packages for the website "Serendib Days" (tagline: *Your days in Sri Lanka, planned by locals.*). Use it as the seed content for the Supabase database described in the project prompt.
+
+1. Convert every package below into SQL  statements for the tables ,  and  (one  row per tier, one  row per day).
+2. Map the fields like this:
+   - , , , , Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         _gateway        0.0.0.0         UG    600    0        0 wlo1
+192.168.1.0     0.0.0.0         255.255.255.0   U     600    0        0 wlo1
+192.168.122.0   0.0.0.0         255.255.255.0   U     0      0        0 virbr0, , ,  → 
+   -  /  → the global lists in section 2, plus any extra lines under "Extra inclusions" for that package
+   -  →  (price per person, two travellers sharing a twin room)
+   -  → ,  and 
+   - Each  line → one  row (, , , )
+3. Use exactly these interest values: , , , , .
+4. Use exactly these duration categories (they match the site filter): , , , , , .
+5. Use Unsplash placeholder images for  and , relevant to each package (Sigiriya, Kandy, tea plantations, Ella train, Yala leopard, Galle Fort, Mirissa beach, and so on).
+6. Mark every price as an editable placeholder. The owner will replace them with real supplier rates.
+7. Also create a  table (id, stop, tier, hotel_name, description, price_difference_pp_per_night) and seed it from section 3, so the site can offer a hotel selector per stop and tier.
+8. Mark these as : 1D-01, 2D-01, 3D-01, 4D-01, 5-7D-03, 8D+-03.
+9. Set  for all, and  in the order they appear here.
+
+---
+
+## 1. Pricing basis (all prices are estimates)
+
+- Currency: USD, per person, **two travellers sharing a twin room**.
+- Built from: private car + chauffeur-guide (about 0 / 4 / 30 per day for the vehicle in Essential / Comfort / Signature), hotel rooms (assumed about 0 / 0 / 20 per room per night with breakfast), entrance fees, and a 20% margin.
+- Reference inputs found in 2026 market research: private driver about 0–70 per day for a standard car and 0–100 for an SUV or van; Sigiriya ticket 5 (non-SAARC); Yala about 5 per person all-in plus a jeep, which is about 0–85 per person all-in for a couple sharing.
+- Hotel rates, Udawalawe and Wilpattu park costs, and the margin are assumptions. Replace them with real quotes from suppliers before launch.
+- **Single-traveller supplement:** about +40% to +60% (set per package by the owner).
+- **Groups of 3–6:** offer a per-person discount when a larger vehicle is shared (owner to set).
+- **Children:** ages 2–11 at 60–75% of the adult price, under 2 free (owner to confirm).
+- 1-day plans start from the destination area. Pickup from Colombo is an optional supplement.
+
+## 2. Global rules
+
+### Tier definitions
+
+| Tier | Vehicle | Stays | Meals | Feel |
+|---|---|---|---|---|
+| **Essential** | Private air-conditioned car | Family-run guesthouse or budget hotel, breakfast | Breakfast only | Simple, friendly, great value |
+| **Comfort** | Private A/C car or SUV (van for larger groups) | 3–4★ hotel or boutique lodge, breakfast | Breakfast + some dinners or lunches noted per plan | Balanced, most popular |
+| **Signature** | Premium SUV or van, dedicated chauffeur-guide | Boutique or luxury hotel, breakfast | Half board, plus special experiences noted per plan | Refined, private, unhurried |
+
+### Common inclusions (all packages unless noted)
+- Private air-conditioned vehicle with an English-speaking chauffeur-guide for the whole itinerary
+- Fuel, highway tolls, parking, driver meals and accommodation
+- Airport or Colombo pickup on the first day and drop-off on the last day for multi-day plans
+- Accommodation as per the chosen tier, on twin-share basis with breakfast
+- Entrance fees for the main sites listed under "Extra inclusions" for each plan
+- Government taxes and service charges at hotels
+- Bottled water in the vehicle
+- 24-hour WhatsApp support from the Serendib Days team
+
+### Common exclusions
+- International flights and travel insurance
+- Meals not mentioned, drinks and personal expenses
+- Entrance fees and activities not listed
+- Camera or video permit fees at some sites
+- Tips (drivers and guides are usually tipped about –10 per day, given at the end of the trip)
+- Peak-season hotel supplements (Dec–Apr and Jul–Aug)
+- Single room supplement
+
+### Seasonal notes
+- Best for the west coast, south coast and hill country: December to March.
+- East coast: April to September.
+- Whale watching off Mirissa: roughly November to April.
+- Elephant gathering at Minneriya: roughly June to October (dry season).
+- Yala National Park usually closes for part of September and October; confirm the dates each year. Offer Udawalawe or Lunugamwehera as alternatives.
+- Kandy Esala Perahera: July or August.
+- Horton Plains: best early morning, and clearest January to March.
+- Sigiriya and Horton Plains are best done at sunrise to avoid heat and cloud.
+
+## 3. Hotel options by stop and tier (for the hotel selector)
+
+Names are examples only. The owner replaces them with real partners.  is measured against Comfort.
+
+| Stop | Essential (≈ 5–55 / room) | Comfort (≈ 0–130 / room) | Signature (≈ 80–400 / room) |
+|---|---|---|---|
+| Sigiriya / Dambulla / Habarana | Family guesthouse or homestay | 3–4★ hotel or boutique lodge with pool | Jetwing Lake (Dambulla) or Heritance Kandalama |
+| Anuradhapura | Budget guesthouse | 3★ heritage hotel | Boutique heritage resort |
+| Wilpattu | Safari guesthouse | Safari lodge | Luxury tented camp |
+| Kandy | Guesthouse with a view | 3–4★ city hotel | Jetwing Kandy Gallery |
+| Nuwara Eliya | Budget hotel or homestay | Tea-country boutique hotel | Jetwing St Andrew's or a restored tea bungalow |
+| Ella | Homestay | Boutique hotel with valley view | Luxury villa or resort |
+| Udawalawe | Safari guesthouse | Safari lodge | Luxury lodge |
+| Yala / Tissamaharama | Safari guesthouse | Safari lodge or 3–4★ hotel | Jetwing Yala or a luxury tented camp |
+| Mirissa | Beach guesthouse | Boutique beach hotel or villa | Luxury cliff or beach villa |
+| Galle | Fort or town guesthouse | Boutique fort hotel | Jetwing Lighthouse or Amangalla |
+| Colombo / Negombo | Budget city hotel | 4★ hotel | 5★ hotel |
+
+---
+
+# CATEGORY: 1 DAY
+
+## 1D-01 · Sigiriya & Dambulla Day
+- **slug:** sigiriya-dambulla-day
+- **Category / duration:** 1 Day (0 nights)
+- **Interests:** Culture & Heritage, Adventure
+- **Route:** Sigiriya area → Sigiriya Rock → Dambulla Cave Temple → village lunch
+- **Best time:** Year-round; start early to beat the heat
+- **Difficulty:** Moderate (about 1,200 steps at Sigiriya)
+- **Featured:** yes
+- **Short description:** Two of Sri Lanka's great UNESCO sites in one day: start early to climb the sky-high Lion Rock at Sigiriya in the cool morning, followed by the ancient painted caves of Dambulla, finished with a home-cooked village lunch.
+- **Prices (USD pp):** Essential 5 | Comfort 15 | Signature 75
+- **Itinerary:**
+  - Day 1 — Rock, Caves and Village: Early pickup from your hotel in the Sigiriya, Dambulla or Habarana area. Climb Sigiriya Rock Fortress in the cool morning to beat the heat, admiring the mirror wall and ancient frescoes. Afterwards, visit the Dambulla Cave Temple with its five caves of Buddha statues and frescoes. Lunch in a nearby village with a short cooking demonstration. Drop-off at your hotel.
+- **Extra inclusions:** Sigiriya ticket (5) and Dambulla ticket (about )
+- **Tier notes:**
+  - Essential: car and guide, entrance fees, lunch not included
+  - Comfort: SUV, village lunch and cooking demo included
+  - Signature: premium vehicle, private lunch at a heritage lodge, bullock-cart ride and sunset village walk
+- **Add-ons:** Pidurangala Rock sunset hike, Minneriya jeep safari (about 5), Colombo pickup supplement
+## 1D-02 · Kandy Culture Day
+- **slug:** kandy-culture-day
+- **Category / duration:** 1 Day (0 nights)
+- **Interests:** Culture & Heritage, Hill Country
+- **Route:** Kandy → Temple of the Tooth → Peradeniya Botanical Gardens → Kandy Lake → cultural show
+- **Best time:** Year-round; July–August for the Esala Perahera festival
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** Sri Lanka's hill capital in a day: the sacred Temple of the Tooth Relic, the royal botanical gardens, the lakeside and an evening of traditional Kandyan dance.
+- **Prices (USD pp):** Essential 5 | Comfort 5 | Signature 50
+- **Itinerary:**
+  - Day 1 — Sacred Kandy: Morning visit to the Temple of the Tooth Relic. Drive around Kandy Lake and browse the town market. Lunch, then a walk through the Royal Botanical Gardens at Peradeniya. Evening Kandyan cultural dance performance and drop-off.
+- **Extra inclusions:** Temple of the Tooth ticket, Peradeniya Botanical Gardens ticket, cultural show ticket (about 5 in total)
+- **Tier notes:**
+  - Essential: car, guide and all tickets
+  - Comfort: SUV, lunch at a local restaurant with a lake view
+  - Signature: premium vehicle, private guide for the temple, lunch at a heritage hotel, front-row show seats
+- **Add-ons:** Gem museum visit, spice garden and Ayurvedic massage, Colombo pickup supplement
+
+## 1D-03 · Galle Fort & Coast Day
+- **slug:** galle-fort-coast-day
+- **Category / duration:** 1 Day (0 nights)
+- **Interests:** Beaches, Culture & Heritage
+- **Route:** Bentota / Galle → Madu River → mask factory → turtle hatchery → Galle Fort → Unawatuna
+- **Best time:** December to April (calmest seas)
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** A relaxed day on the south-west coast: a boat trip through the Madu River mangroves, a visit to a traditional mask factory, a turtle hatchery, the cobbled streets of Galle Fort and a beach lunch at Unawatuna.
+- **Prices (USD pp):** Essential 5 | Comfort 5 | Signature 50
+- **Itinerary:**
+  - Day 1 — Mangroves, Masks, Turtles and the Fort: Pickup in the Bentota or Galle area. Boat ride through the Madu River mangroves. Visit a traditional mask factory and museum to experience local wood carving and folklore masks. Visit a turtle hatchery. Walk the ramparts of Galle Fort, the lighthouse and the old Dutch streets. Seafood lunch on Unawatuna beach and free time to swim.
+- **Extra inclusions:** Madu River boat ride, mask factory visit and turtle hatchery ticket (about 5)
+- **Tier notes:**
+  - Essential: car, guide, boat ride, mask factory and hatchery
+  - Comfort: SUV, seafood lunch by the beach
+  - Signature: premium vehicle, private boat, lunch at a Galle Fort boutique hotel, sunset drinks on the ramparts
+- **Add-ons:** Whale watching from Mirissa (November–April), snorkelling at Unawatuna, Colombo pickup supplement
+## 1D-04 · Udawalawe Elephant Safari Day
+- **slug:** udawalawe-elephant-safari-day
+- **Category / duration:** 1 Day (0 nights)
+- **Interests:** Wildlife
+- **Route:** Udawalawe area → Elephant Transit Home → jeep safari
+- **Best time:** Year-round; dry season for the best sightings
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** Udawalawe is one of the most reliable places in Asia to see wild elephants up close. Combine a morning jeep safari with the Elephant Transit Home, where orphaned calves are cared for.
+- **Prices (USD pp):** Essential 5 | Comfort 25 | Signature 90
+- **Itinerary:**
+  - Day 1 — Elephants Up Close: Early start from your hotel in the Udawalawe, Tissamaharama or Galle area. Half-day jeep safari to spot elephants, water buffalo, crocodiles and birds. Visit the Elephant Transit Home at feeding time. Lunch and return.
+- **Extra inclusions:** National park entrance fee, jeep hire and tracker (estimate, about 0 per person for two sharing)
+- **Tier notes:**
+  - Essential: shared jeep safari, lunch not included
+  - Comfort: private jeep, lunch included
+  - Signature: private jeep with naturalist guide, breakfast in the park and lunch at a lodge
+- **Add-ons:** Second safari, Colombo or Galle pickup supplement
+
+---
+
+# CATEGORY: 2 DAYS
+
+## 2D-01 · Cultural Triangle Escape
+- **slug:** cultural-triangle-escape
+- **Category / duration:** 2 Days (1 night)
+- **Interests:** Culture & Heritage, Wildlife
+- **Route:** Colombo → Sigiriya → Minneriya → Polonnaruwa → Colombo
+- **Best time:** Year-round; June–October for the elephant gathering
+- **Difficulty:** Moderate
+- **Featured:** yes
+- **Short description:** The best of the ancient heartland in a short break: a sunrise climb of Sigiriya, the ruined royal city of Polonnaruwa and an evening elephant safari at Minneriya.
+- **Prices (USD pp):** Essential 75 | Comfort 95 | Signature 80
+- **Overnight:** Sigiriya / Habarana (1N)
+- **Itinerary:**
+  - Day 1 — Into the Ancient Heartland: Pickup in Colombo or at the airport and scenic drive north. Lunch on the way. Check in at Sigiriya. Evening jeep safari at Minneriya National Park to see wild elephants. Overnight in Sigiriya.
+  - Day 2 — Lion Rock and Polonnaruwa: Sunrise climb of Sigiriya Rock. Breakfast, then explore Polonnaruwa's ancient city (Royal Palace, Gal Vihara, Vatadage). Lunch, then return to Colombo (about 5 hours), arriving in the evening.
+- **Extra inclusions:** Sigiriya (5), Polonnaruwa (0), Minneriya safari (about 0; optional add-on for Essential)
+- **Tier notes:**
+  - Essential: guesthouse, sites included, safari as add-on (about 5)
+  - Comfort: 3–4★ hotel with pool, safari, dinner at the hotel
+  - Signature: boutique hotel, half board, private jeep with naturalist guide
+
+## 2D-02 · Tea Country Escape (Nuwara Eliya & Horton Plains)
+- **slug:** tea-country-escape
+- **Category / duration:** 2 Days (1 night)
+- **Interests:** Hill Country, Adventure
+- **Route:** Colombo / Kandy → Ramboda Falls → Nuwara Eliya → Horton Plains → return
+- **Best time:** January to March (clearest views); mornings are best year-round
+- **Difficulty:** Moderate (about 9 km walk at Horton Plains)
+- **Featured:** no
+- **Short description:** Cool air, green hills and a famous cliff edge. Visit a working tea factory, stroll through "Little England" and hike to World's End at sunrise.
+- **Prices (USD pp):** Essential 45 | Comfort 15 | Signature 95
+- **Overnight:** Nuwara Eliya (1N)
+- **Itinerary:**
+  - Day 1 — Into the Hills: Pickup in Colombo or Kandy and drive up through the tea country. Stop at Ramboda Falls and a tea factory for a tasting. Afternoon walk around Gregory Lake and the old colonial centre of Nuwara Eliya. Overnight in Nuwara Eliya.
+  - Day 2 — World's End: Very early start for Horton Plains National Park. Hike the loop to World's End and Baker's Falls. Breakfast, then descend and return to Kandy or Colombo in the late afternoon.
+- **Extra inclusions:** Tea factory tour, Horton Plains entrance (estimate, about 5)
+- **Tier notes:**
+  - Essential: budget hotel or homestay, sites included
+  - Comfort: tea-country boutique hotel, dinner included
+  - Signature: restored tea bungalow, half board, private tea tasting and picnic breakfast in Horton Plains
+
+## 2D-03 · South Coast Beach Escape
+- **slug:** south-coast-beach-escape
+- **Category / duration:** 2 Days (1 night)
+- **Interests:** Beaches, Wildlife
+- **Route:** Colombo → Galle → Mirissa → Colombo
+- **Best time:** November to April
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** A quick beach break with Galle Fort, the Madu River, a night at Mirissa and (in season) a morning of whale watching.
+- **Prices (USD pp):** Essential 25 | Comfort 65 | Signature 55
+- **Overnight:** Mirissa (1N)
+- **Itinerary:**
+  - Day 1 — Fort and Coast: Pickup in Colombo and drive south by expressway. Visit a turtle hatchery and the Madu River, then walk Galle Fort. Sunset at Mirissa and overnight by the beach.
+  - Day 2 — Whales and Waves: Early morning whale watching boat trip from Mirissa (November–April), or a beach morning at other times. Coconut Tree Hill and Weligama, then return to Colombo by expressway.
+- **Extra inclusions:** Turtle hatchery and river boat (about 5), whale watching boat (about 5; Comfort and Signature)
+- **Tier notes:**
+  - Essential: beach guesthouse, whale watching as add-on
+  - Comfort: boutique beach hotel, whale watching, dinner included
+  - Signature: villa with sea view, half board, private whale watching boat
+
+## 2D-04 · Yala Safari Escape
+- **slug:** yala-safari-escape
+- **Category / duration:** 2 Days (1 night)
+- **Interests:** Wildlife, Adventure
+- **Route:** Colombo / Galle → Tissamaharama → Yala → return
+- **Best time:** February to July for leopards; check park closure dates in September–October
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** Two safaris, one night in the wild. Yala has one of the highest leopard densities in the world, with elephants, sloth bears and crocodiles too.
+- **Prices (USD pp):** Essential 95 | Comfort 65 | Signature 65
+- **Overnight:** Yala / Tissamaharama (1N)
+- **Itinerary:**
+  - Day 1 — Into the Wild: Pickup in Colombo or Galle and drive to Tissamaharama. Check in, then head out on an afternoon jeep safari in Yala National Park. Overnight near the park.
+  - Day 2 — Dawn Safari: Pre-dawn start for a morning safari, the best time for leopards. Breakfast at the hotel and return journey.
+- **Extra inclusions:** Park entrance fees and jeep hire (about 0–85 pp per safari when two people share a jeep)
+- **Tier notes:**
+  - Essential: guesthouse, one safari included
+  - Comfort: safari lodge, two safaris, dinner included
+  - Signature: luxury lodge or tented camp, half board, two private jeep safaris with a naturalist guide
+
+---
+
+# CATEGORY: 3 DAYS
+
+## 3D-01 · Hill Country Highlights
+- **slug:** hill-country-highlights
+- **Category / duration:** 3 Days (2 nights)
+- **Interests:** Hill Country, Culture & Heritage
+- **Route:** Colombo → Kandy → Nuwara Eliya → Ella
+- **Best time:** December to March
+- **Difficulty:** Easy to moderate
+- **Featured:** yes
+- **Short description:** Temples, tea and one of the world's great train journeys. Kandy's sacred sights, the misty hills of Nuwara Eliya and the viewpoints of Ella.
+- **Prices (USD pp):** Essential 95 | Comfort 30 | Signature 60
+- **Overnights:** Kandy (1N), Nuwara Eliya (1N)
+- **Itinerary:**
+  - Day 1 — Kandy: Pickup in Colombo or at the airport. Visit the Temple of the Tooth and Peradeniya Botanical Gardens. Evening Kandyan dance show. Overnight in Kandy.
+  - Day 2 — Train to the Tea Country: Ride the scenic hill-country train from Kandy to Nanu Oya while the driver meets you with the car. Tea factory visit and tasting, then a walk around Nuwara Eliya. Overnight in Nuwara Eliya.
+  - Day 3 — Ella: Drive through the hills to Ella. Walk to the Nine Arch Bridge, Little Adam's Peak and Ravana Falls. Drop-off in Ella, or continue to the south coast or back to Colombo (about 6–7 hours; supplement applies).
+- **Extra inclusions:** Temple of the Tooth, Peradeniya, dance show, train ticket, tea factory (about 5 in total). Train tickets sell out early, so the owner should book in advance.
+- **Tier notes:**
+  - Essential: guesthouses, second-class reserved train seats
+  - Comfort: 3–4★ hotels, reserved seats, dinners in Kandy and Nuwara Eliya
+  - Signature: boutique hotels, first-class or observation-car seats where available, half board, private tea tasting
+
+## 3D-02 · South Coast & Galle Fort
+- **slug:** south-coast-galle-fort
+- **Category / duration:** 3 Days (2 nights)
+- **Interests:** Beaches, Culture & Heritage, Wildlife
+- **Route:** Colombo → Bentota → Galle → Mirissa → Colombo
+- **Best time:** November to April
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** Golden beaches, a colonial fort, mangrove rivers and, in season, blue whales. The classic south coast, unhurried.
+- **Prices (USD pp):** Essential 85 | Comfort 85 | Signature 15
+- **Overnights:** Galle (1N), Mirissa (1N)
+- **Itinerary:**
+  - Day 1 — Bentota to Galle: Pickup in Colombo and drive south. Turtle hatchery and Madu River boat ride. Afternoon in Galle Fort, ramparts and sunset. Overnight in Galle.
+  - Day 2 — Mirissa: Morning whale watching (November–April) or a beach and surf morning. Coconut Tree Hill and Weligama. Free afternoon on the beach. Overnight in Mirissa.
+  - Day 3 — Coast to Colombo: Relaxed morning, optional snorkelling or a cooking class, then return by expressway.
+- **Extra inclusions:** Turtle hatchery and river boat (about 5), whale watching boat (about 5; Comfort and Signature)
+- **Tier notes:**
+  - Essential: guesthouses in Galle and Mirissa
+  - Comfort: boutique hotels, whale watching, dinner at Mirissa
+  - Signature: fort boutique hotel and cliff villa, half board, private whale watching boat, sunset dinner on the beach
+
+## 3D-03 · Cultural Triangle & Kandy
+- **slug:** cultural-triangle-and-kandy
+- **Category / duration:** 3 Days (2 nights)
+- **Interests:** Culture & Heritage
+- **Route:** Colombo → Dambulla → Sigiriya → Polonnaruwa → Kandy → Colombo
+- **Best time:** Year-round
+- **Difficulty:** Moderate
+- **Featured:** no
+- **Short description:** Sri Lanka's greatest historic sites in one loop: cave temples, a rock fortress, a ruined capital and the last royal city.
+- **Prices (USD pp):** Essential 75 | Comfort 05 | Signature 35
+- **Overnights:** Sigiriya (1N), Kandy (1N)
+- **Itinerary:**
+  - Day 1 — Dambulla and Sigiriya: Pickup in Colombo and drive north. Visit the Dambulla Cave Temple. Late afternoon at Sigiriya's gardens and village. Overnight in Sigiriya.
+  - Day 2 — Lion Rock and Polonnaruwa: Sunrise climb of Sigiriya Rock. Afternoon at Polonnaruwa's ruins. Drive to Kandy via a spice garden in Matale. Evening dance show. Overnight in Kandy.
+  - Day 3 — Sacred Kandy: Temple of the Tooth and Peradeniya Botanical Gardens, then return to Colombo.
+- **Extra inclusions:** Sigiriya (5), Polonnaruwa (0), Dambulla (about ), Temple of the Tooth, Peradeniya, dance show (about 9 in total)
+- **Tier notes:**
+  - Essential: guesthouses
+  - Comfort: 3–4★ hotels, dinners at both hotels
+  - Signature: boutique hotels, half board, private village lunch experience
+
+## 3D-04 · Yala & Udawalawe Safari Trail
+- **slug:** yala-udawalawe-safari-trail
+- **Category / duration:** 3 Days (2 nights)
+- **Interests:** Wildlife, Adventure
+- **Route:** Colombo → Udawalawe → Yala → Galle → Colombo
+- **Best time:** February to July for leopards; check Yala closure dates (September–October)
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** Two parks, two very different safaris: elephants in Udawalawe and leopards in Yala, with a stop at Galle Fort on the way home.
+- **Prices (USD pp):** Essential 25 | Comfort 60 | Signature 20
+- **Overnights:** Udawalawe (1N), Yala / Tissamaharama (1N)
+- **Itinerary:**
+  - Day 1 — Elephants: Pickup in Colombo and drive to Udawalawe. Lunch, then afternoon safari and the Elephant Transit Home. Overnight in Udawalawe.
+  - Day 2 — Leopard Country: Drive to Yala. Safari in the late afternoon. Overnight near the park.
+  - Day 3 — Dawn and Galle: Early morning Yala safari. Breakfast, then drive to Galle Fort for lunch and a walk, and return to Colombo.
+- **Extra inclusions:** Udawalawe safari (estimate, about 0 pp), Yala safari (about 2 pp when two share a jeep)
+- **Tier notes:**
+  - Essential: safari guesthouses, shared or standard jeeps
+  - Comfort: safari lodges, private jeeps, dinners included
+  - Signature: luxury lodges or tented camp, half board, private jeeps with naturalist guide
+
+---
+
+# CATEGORY: 4 DAYS
+
+## 4D-01 · Glimpse of Sri Lanka
+- **slug:** glimpse-of-sri-lanka
+- **Category / duration:** 4 Days (3 nights)
+- **Interests:** Culture & Heritage, Wildlife
+- **Route:** Airport → Habarana / Sigiriya → Kandy → Colombo
+- **Best time:** Year-round
+- **Difficulty:** Moderate
+- **Featured:** yes
+- **Short description:** A first taste of the island in four days: elephants, a rock fortress, spice gardens, the Temple of the Tooth and a night in Colombo. Ideal as a short stopover.
+- **Prices (USD pp):** Essential 35 | Comfort 25 | Signature ,000
+- **Overnights:** Habarana / Sigiriya (1N), Kandy (1N), Colombo (1N)
+- **Itinerary:**
+  - Day 1 — Arrival and Elephants: Airport welcome and drive north. Evening jeep safari at Minneriya National Park. Overnight in Habarana or Sigiriya.
+  - Day 2 — Lion Rock and Kandy: Sunrise climb of Sigiriya Rock. Visit a spice garden in Matale. Arrive in Kandy and enjoy an evening dance show. Overnight in Kandy.
+  - Day 3 — Sacred Kandy and Colombo: Temple of the Tooth and Peradeniya Botanical Gardens. Drive to Colombo for a city tour (Fort, Pettah, Galle Face). Overnight in Colombo.
+  - Day 4 — Departure: Breakfast and transfer to the airport.
+- **Extra inclusions:** Minneriya safari (about 0), Sigiriya (5), Temple of the Tooth, Peradeniya, dance show (about 00 in total)
+- **Tier notes:**
+  - Essential: guesthouses and a budget city hotel
+  - Comfort: 3–4★ hotels, dinners in Habarana and Kandy
+  - Signature: boutique hotels, half board, private jeep with naturalist guide
+
+## 4D-02 · Hill Country & Tea Trails
+- **slug:** hill-country-tea-trails
+- **Category / duration:** 4 Days (3 nights)
+- **Interests:** Hill Country, Adventure
+- **Route:** Colombo → Kandy → Nuwara Eliya → Ella → Colombo
+- **Best time:** December to March
+- **Difficulty:** Moderate
+- **Featured:** no
+- **Short description:** Ride the famous hill-country train, taste fresh Ceylon tea, hike World's End and cross the Nine Arch Bridge.
+- **Prices (USD pp):** Essential 10 | Comfort 05 | Signature 85
+- **Overnights:** Kandy (1N), Nuwara Eliya (1N), Ella (1N)
+- **Itinerary:**
+  - Day 1 — Kandy: Pickup and drive to Kandy. Temple of the Tooth and Peradeniya Botanical Gardens. Overnight in Kandy.
+  - Day 2 — Train to Tea Country: Scenic train from Kandy to Nanu Oya. Tea factory visit. Explore Nuwara Eliya. Overnight there.
+  - Day 3 — World's End and Ella: Sunrise hike at Horton Plains. Drive to Ella. Sunset at Little Adam's Peak. Overnight in Ella.
+  - Day 4 — Ella to Colombo: Morning at the Nine Arch Bridge and Ravana Falls, then the long drive back (about 6–7 hours).
+- **Extra inclusions:** Tooth temple, Peradeniya, train ticket, tea factory, Horton Plains (about 0 in total)
+- **Tier notes:**
+  - Essential: guesthouses and homestays
+  - Comfort: boutique hotels, dinners included
+  - Signature: tea bungalow and luxury villa, half board, first-class train seats where available, private tea tasting
+
+## 4D-03 · South Coast Beaches & Yala
+- **slug:** south-coast-beaches-yala
+- **Category / duration:** 4 Days (3 nights)
+- **Interests:** Beaches, Wildlife
+- **Route:** Colombo → Galle → Mirissa → Yala → Colombo
+- **Best time:** November to April
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** Sand, sea and safari. Explore Galle Fort, whale watch from Mirissa and finish with a jeep safari in Yala.
+- **Prices (USD pp):** Essential 45 | Comfort 00 | Signature ,080
+- **Overnights:** Galle (1N), Mirissa (1N), Yala / Tissamaharama (1N)
+- **Itinerary:**
+  - Day 1 — Galle Fort: Pickup in Colombo, coastal stops at a turtle hatchery and the Madu River, then Galle Fort. Overnight in Galle.
+  - Day 2 — Whales and Beaches: Morning whale watching from Mirissa (November–April), beach time and Weligama. Overnight in Mirissa.
+  - Day 3 — Yala: Drive to Yala and go on an afternoon safari. Overnight near the park.
+  - Day 4 — Dawn and Home: Early morning safari, breakfast and return to Colombo.
+- **Extra inclusions:** Hatchery and river boat (about 5), whale watching (about 5; Comfort and Signature), Yala safari (about 2)
+- **Tier notes:**
+  - Essential: guesthouses, whale watching as an add-on
+  - Comfort: boutique hotels, safari lodge, dinners included
+  - Signature: luxury villas and tented camp, half board, private whale watching boat, private safari
+
+## 4D-04 · Ancient Cities Deep Dive
+- **slug:** ancient-cities-deep-dive
+- **Category / duration:** 4 Days (3 nights)
+- **Interests:** Culture & Heritage, Wildlife
+- **Route:** Colombo → Anuradhapura → Sigiriya → Polonnaruwa → Dambulla → Colombo
+- **Best time:** Year-round
+- **Difficulty:** Moderate
+- **Featured:** no
+- **Short description:** For history lovers: Sri Lanka's first capital Anuradhapura, the sacred hill of Mihintale, Sigiriya, Polonnaruwa and the cave temples of Dambulla.
+- **Prices (USD pp):** Essential 85 | Comfort 75 | Signature ,045
+- **Overnights:** Anuradhapura (1N), Sigiriya (2N)
+- **Itinerary:**
+  - Day 1 — Anuradhapura: Pickup in Colombo and drive to Anuradhapura. Visit the Sri Maha Bodhi tree, great stupas and ancient ponds. Overnight there.
+  - Day 2 — Mihintale and Sigiriya: Sunrise at Mihintale, the cradle of Buddhism in Sri Lanka. Drive to Sigiriya and take an afternoon safari at Minneriya. Overnight in Sigiriya.
+  - Day 3 — Lion Rock and Polonnaruwa: Sunrise climb of Sigiriya Rock. Afternoon exploring Polonnaruwa. Overnight in Sigiriya.
+  - Day 4 — Dambulla and Home: Visit the Dambulla Cave Temple, then drive back to Colombo.
+- **Extra inclusions:** Anuradhapura (0), Sigiriya (5), Polonnaruwa (0), Dambulla (about ), Minneriya safari (about 0)
+- **Tier notes:**
+  - Essential: guesthouses
+  - Comfort: heritage hotels, dinners included
+  - Signature: boutique heritage resorts, half board, private archaeology-specialist guide for one day
+
+---
+
+# CATEGORY: 5 TO 7 DAYS
+
+## 5-7D-01 · Culture & Hill Country (5 Days)
+- **slug:** culture-hill-country-5-days
+- **Category / duration:** 5 to 7 Days (5 days, 4 nights)
+- **Interests:** Culture & Heritage, Hill Country, Wildlife
+- **Route:** Airport → Sigiriya → Kandy → Nuwara Eliya → Colombo
+- **Best time:** December to March
+- **Difficulty:** Moderate
+- **Featured:** no
+- **Short description:** Ancient rock fortress, sacred Kandy and the tea hills, connected by a scenic train ride. A well-paced first trip.
+- **Prices (USD pp):** Essential 15 | Comfort 65 | Signature ,320
+- **Overnights:** Sigiriya (1N), Kandy (1N), Nuwara Eliya (1N), Colombo (1N)
+- **Itinerary:**
+  - Day 1 — Arrival and Elephants: Airport welcome and drive north. Evening safari at Minneriya. Overnight in Sigiriya.
+  - Day 2 — Lion Rock to Kandy: Sunrise climb of Sigiriya Rock, spice garden stop and arrival in Kandy. Evening dance show. Overnight in Kandy.
+  - Day 3 — Kandy to the Hills: Temple of the Tooth and Peradeniya Gardens, then scenic train from Kandy to Nanu Oya. Overnight in Nuwara Eliya.
+  - Day 4 — Tea and Return: Tea factory visit and colonial town walk, then drive to Colombo via the tea country. Overnight in Colombo.
+  - Day 5 — Departure: Breakfast and transfer to the airport.
+- **Extra inclusions:** Minneriya safari, Sigiriya, Tooth temple, Peradeniya, dance show, train ticket (about 17 in total)
+- **Tier notes:**
+  - Essential: guesthouses, budget city hotel
+  - Comfort: 3–4★ hotels, four dinners
+  - Signature: boutique hotels, half board, private jeep, first-class train seats where available
+
+## 5-7D-02 · Hills, Tea & Beach (6 Days)
+- **slug:** hills-tea-beach-6-days
+- **Category / duration:** 5 to 7 Days (6 days, 5 nights)
+- **Interests:** Hill Country, Beaches, Adventure
+- **Route:** Colombo → Kandy → Nuwara Eliya → Ella → Mirissa → Colombo
+- **Best time:** December to April
+- **Difficulty:** Easy to moderate
+- **Featured:** no
+- **Short description:** Mountains first, then the sea. Trains, tea, waterfalls and viewpoints, followed by two nights on the south coast.
+- **Prices (USD pp):** Essential 30 | Comfort 05 | Signature ,615
+- **Overnights:** Kandy (1N), Nuwara Eliya (1N), Ella (1N), Mirissa (2N)
+- **Itinerary:**
+  - Day 1 — Kandy: Pickup and drive to Kandy. Temple of the Tooth and lake. Overnight in Kandy.
+  - Day 2 — Train to Nuwara Eliya: Peradeniya Gardens, then train to Nanu Oya and tea factory visit. Overnight in Nuwara Eliya.
+  - Day 3 — World's End and Ella: Sunrise at Horton Plains, then drive to Ella. Sunset at Little Adam's Peak. Overnight in Ella.
+  - Day 4 — Ella to the Coast: Nine Arch Bridge, then a scenic drive down to the south coast. Overnight in Mirissa.
+  - Day 5 — Whales and Beach: Whale watching (November–April) and free beach time. Overnight in Mirissa.
+  - Day 6 — Departure: Galle Fort stop on the way to Colombo or the airport.
+- **Extra inclusions:** Tooth temple, Peradeniya, train ticket, tea factory, Horton Plains (about 0–135 in total), whale watching for Comfort and Signature
+- **Tier notes:**
+  - Essential: guesthouses, whale watching as add-on
+  - Comfort: boutique hotels, whale watching, dinners included
+  - Signature: tea bungalow, luxury villas, half board, private whale watching boat
+
+## 5-7D-03 · Sri Lanka Essentials (7 Days)
+- **slug:** sri-lanka-essentials-7-days
+- **Category / duration:** 5 to 7 Days (7 days, 6 nights)
+- **Interests:** Culture & Heritage, Wildlife, Hill Country
+- **Route:** Airport → Sigiriya → Kandy → Nuwara Eliya → Yala → Galle → Airport
+- **Best time:** December to March
+- **Difficulty:** Moderate
+- **Featured:** yes
+- **Short description:** Our signature week: ancient cities, sacred temples, tea hills, a leopard safari and a night in Galle Fort. Everything a first-time visitor wants to see.
+- **Prices (USD pp):** Essential 75 | Comfort ,040 | Signature ,000
+- **Overnights:** Sigiriya (2N), Kandy (1N), Nuwara Eliya (1N), Yala (1N), Galle (1N)
+- **Itinerary:**
+  - Day 1 — Arrival and Elephants: Airport welcome and drive north. Evening safari at Minneriya. Overnight in Sigiriya.
+  - Day 2 — Lion Rock and Polonnaruwa: Sunrise climb of Sigiriya Rock, then explore Polonnaruwa. Overnight in Sigiriya.
+  - Day 3 — Kandy: Dambulla Cave Temple or spice garden on the way. Temple of the Tooth, Peradeniya Gardens and the evening dance show. Overnight in Kandy.
+  - Day 4 — Train to the Hills: Scenic train from Kandy to Nanu Oya, tea factory visit and a colonial walk in Nuwara Eliya. Overnight there.
+  - Day 5 — Down to Yala: Descend from the hills to Yala. Evening safari for leopards and elephants. Overnight near the park.
+  - Day 6 — Galle Fort: Drive to the south coast. Explore Galle Fort's ramparts and streets. Overnight in Galle.
+  - Day 7 — Departure: Breakfast and transfer to the airport.
+- **Extra inclusions:** Sigiriya, Polonnaruwa, Minneriya safari, Tooth temple, Peradeniya, dance show, train ticket, Yala safari (about 34 in total)
+- **Tier notes:**
+  - Essential: guesthouses and simple hotels
+  - Comfort: 3–4★ hotels, safari lodge, six dinners
+  - Signature: boutique hotels and luxury lodge, half board, private jeeps with naturalist guides, first-class train seats where available
+
+## 5-7D-04 · Wildlife & Beaches (7 Days)
+- **slug:** wildlife-beaches-7-days
+- **Category / duration:** 5 to 7 Days (7 days, 6 nights)
+- **Interests:** Wildlife, Beaches
+- **Route:** Colombo → Udawalawe → Yala → Mirissa → Galle → Colombo
+- **Best time:** November to April
+- **Difficulty:** Easy
+- **Featured:** no
+- **Short description:** Elephants and leopards, then whales and beaches. A week on the wild south of the island.
+- **Prices (USD pp):** Essential 80 | Comfort ,120 | Signature ,130
+- **Overnights:** Udawalawe (1N), Yala (2N), Mirissa (2N), Galle (1N)
+- **Itinerary:**
+  - Day 1 — Elephants: Pickup and drive to Udawalawe. Evening safari. Overnight there.
+  - Day 2 — Transit Home and Yala: Visit the Elephant Transit Home, then drive to Yala. Overnight near the park.
+  - Day 3 — Leopard Day: Dawn safari in Yala, rest at the lodge and optional second safari (Comfort and Signature). Overnight near the park.
+  - Day 4 — To the Coast: Drive to Mirissa. Beach afternoon and sunset. Overnight in Mirissa.
+  - Day 5 — Whales: Morning whale watching (November–April), beach or surf lesson in the afternoon. Overnight in Mirissa.
+  - Day 6 — Galle Fort: Coastal drive to Galle. Explore the Fort. Overnight in Galle.
+  - Day 7 — Departure: Transfer to Colombo or the airport.
+- **Extra inclusions:** Udawalawe and Yala safaris, Elephant Transit Home, Galle Fort (about 50–300 depending on tier), whale watching for Comfort and Signature
+- **Tier notes:**
+  - Essential: guesthouses, one Yala safari, whale watching as an add-on
+  - Comfort: safari lodges and boutique hotels, two Yala safaris, whale watching, dinners included
+  - Signature: luxury lodges and villas, half board, private jeeps with naturalist guides, private whale watching boat
+
+---
+
+# CATEGORY: 8+ DAYS
+
+## 8D+-01 · Romance in Paradise (8 Days)
+- **slug:** romance-in-paradise-8-days
+- **Category / duration:** 8+ Days (8 days, 7 nights)
+- **Interests:** Beaches, Hill Country, Culture & Heritage
+- **Route:** Airport → Sigiriya → Kandy → Nuwara Eliya → Ella → Mirissa → Airport
+- **Best time:** December to April
+- **Difficulty:** Easy to moderate
+- **Featured:** no
+- **Short description:** A honeymoon or anniversary trip: ancient wonders, misty tea hills, a scenic train and a beach finale. Romantic touches are built into the Comfort and Signature tiers.
+- **Prices (USD pp):** Essential 95 | Comfort ,090 | Signature ,305
+- **Overnights:** Sigiriya (2N), Kandy (1N), Nuwara Eliya (1N), Ella (1N), Mirissa (2N)
+- **Itinerary:**
+  - Day 1 — Arrival: Airport welcome, drive north and settle in at Sigiriya.
+  - Day 2 — Lion Rock: Sunrise climb of Sigiriya Rock, afternoon at leisure. Overnight in Sigiriya.
+  - Day 3 — Kandy: Temple of the Tooth, botanical gardens and evening dance show. Overnight in Kandy.
+  - Day 4 — Train to Nuwara Eliya: Scenic train, tea factory and colonial walk. Overnight there.
+  - Day 5 — World's End and Ella: Sunrise at Horton Plains, then on to Ella. Sunset at Little Adam's Peak. Overnight in Ella.
+  - Day 6 — To the Coast: Nine Arch Bridge, then a scenic drive to Mirissa. Overnight there.
+  - Day 7 — Whales and Beach: Whale watching (November–April) and a beach afternoon. Overnight in Mirissa.
+  - Day 8 — Departure: Galle Fort stop on the way to the airport.
+- **Extra inclusions:** Sigiriya, Tooth temple, Peradeniya, train ticket, tea factory, Horton Plains, Galle Fort (about 17 for Essential, 72 with whale watching for Comfort and Signature)
+- **Tier notes:**
+  - Essential: guesthouses, whale watching as an add-on
+  - Comfort: boutique hotels, room decoration on arrival, one candlelit dinner, whale watching
+  - Signature: luxury villas, half board, private sunset dinner on the beach, couple's spa session, private whale watching boat
+
+## 8D+-02 · Wildlife Grand Safari (9 Days)
+- **slug:** wildlife-grand-safari-9-days
+- **Category / duration:** 8+ Days (9 days, 8 nights)
+- **Interests:** Wildlife, Adventure, Hill Country
+- **Route:** Airport → Wilpattu → Sigiriya → Nuwara Eliya → Udawalawe → Yala → Mirissa → Galle → Airport
+- **Best time:** February to July (check Yala closure dates in September–October)
+- **Difficulty:** Moderate
+- **Featured:** no
+- **Short description:** Five national parks in nine days: leopards and sloth bears in Wilpattu, elephants at Minneriya, Horton Plains, Udawalawe and Yala, with whale watching to finish.
+- **Prices (USD pp):** Essential 40 | Comfort ,490 | Signature ,810
+- **Overnights:** Wilpattu (1N), Sigiriya (2N), Nuwara Eliya (1N), Udawalawe (1N), Yala (1N), Mirissa (1N), Galle (1N)
+- **Itinerary:**
+  - Day 1 — To the Northwest: Airport welcome and drive to Wilpattu. Overnight there.
+  - Day 2 — Wilpattu: Morning jeep safari, then transfer to Sigiriya. Overnight there.
+  - Day 3 — Minneriya: Sunrise at Sigiriya Rock, then an afternoon safari at Minneriya. Overnight in Sigiriya.
+  - Day 4 — To the Hills: Drive to Nuwara Eliya via Kandy. Overnight there.
+  - Day 5 — Horton Plains and Udawalawe: Sunrise hike at World's End, then descend to Udawalawe for an evening safari. Overnight there.
+  - Day 6 — Elephants to Leopards: Transit Home visit, then drive to Yala for an afternoon safari. Overnight near the park.
+  - Day 7 — Dawn in Yala: Early safari, then drive to Mirissa. Overnight there.
+  - Day 8 — Whales and Galle: Whale watching (November–April), then Galle Fort. Overnight in Galle.
+  - Day 9 — Departure: Transfer to the airport.
+- **Extra inclusions:** Wilpattu, Minneriya, Udawalawe and Yala safaris, Sigiriya, Horton Plains, Galle Fort (about 52 for Essential, 07 with whale watching for Comfort and Signature). Wilpattu and Udawalawe costs are estimates.
+- **Tier notes:**
+  - Essential: guesthouses and simple lodges, whale watching as an add-on
+  - Comfort: safari lodges and boutique hotels, dinners included, whale watching
+  - Signature: luxury tented camps and lodges, half board, private jeeps with naturalist guides, private whale watching boat
+
+## 8D+-03 · Grand Island Loop (10 Days)
+- **slug:** grand-island-loop-10-days
+- **Category / duration:** 8+ Days (10 days, 9 nights)
+- **Interests:** Culture & Heritage, Wildlife, Hill Country, Beaches
+- **Route:** Airport → Sigiriya → Kandy → Nuwara Eliya → Ella → Yala → Mirissa → Galle → Colombo
+- **Best time:** December to March
+- **Difficulty:** Moderate
+- **Featured:** yes
+- **Short description:** The full island in ten days: heritage cities, tea hills, the Ella train, a leopard safari and the southern beaches. Our most complete round trip.
+- **Prices (USD pp):** Essential 05 | Comfort ,515 | Signature ,990
+- **Overnights:** Sigiriya (2N), Kandy (1N), Nuwara Eliya (2N), Ella (1N), Yala (1N), Mirissa (1N), Galle (1N)
+- **Itinerary:**
+  - Day 1 — Arrival: Airport welcome and drive north. Evening safari at Minneriya. Overnight in Sigiriya.
+  - Day 2 — Lion Rock and Polonnaruwa: Sunrise climb of Sigiriya Rock, afternoon at Polonnaruwa. Overnight in Sigiriya.
+  - Day 3 — Dambulla and Kandy: Dambulla Cave Temple, Matale spice garden, then Kandy and the dance show. Overnight in Kandy.
+  - Day 4 — Sacred Kandy and the Train: Temple of the Tooth and Peradeniya Gardens, then the scenic train to Nanu Oya. Overnight in Nuwara Eliya.
+  - Day 5 — Tea and World's End: Horton Plains at sunrise, then a tea factory visit and a colonial walk. Overnight in Nuwara Eliya.
+  - Day 6 — Ella: Scenic route to Ella. Nine Arch Bridge, Little Adam's Peak, Ravana Falls. Overnight in Ella.
+  - Day 7 — Yala: Drive to Yala for an afternoon safari. Overnight near the park.
+  - Day 8 — Dawn Safari and Mirissa: Early safari, then drive to Mirissa. Overnight there.
+  - Day 9 — Whales and Galle: Whale watching (November–April), then Galle Fort. Overnight in Galle.
+  - Day 10 — Departure: Transfer to Colombo or the airport.
+- **Extra inclusions:** Sigiriya, Polonnaruwa, Minneriya, Dambulla, Tooth temple, Peradeniya, train ticket, Horton Plains, tea factory, Yala safari, Galle Fort (about 76 for Essential, 31 with whale watching for Comfort and Signature)
+- **Tier notes:**
+  - Essential: guesthouses and homestays, whale watching as an add-on
+  - Comfort: 3–4★ hotels and lodges, dinners included, whale watching
+  - Signature: boutique hotels and luxury lodges, half board, private jeeps, first-class train seats where available, private whale watching boat
+
+## 8D+-04 · Complete Sri Lanka (14 Days)
+- **slug:** complete-sri-lanka-14-days
+- **Category / duration:** 8+ Days (14 days, 13 nights)
+- **Interests:** Culture & Heritage, Wildlife, Hill Country, Beaches, Adventure
+- **Route:** Airport → Anuradhapura → Sigiriya → Kandy → Nuwara Eliya → Ella → Udawalawe / Yala → Mirissa → Galle → Airport
+- **Best time:** December to March
+- **Difficulty:** Moderate
+- **Featured:** no
+- **Short description:** Two weeks at a relaxed pace with two-night stays at the key stops. Ancient capitals, tea country, two safaris and time to unwind on the south coast.
+- **Prices (USD pp):** Essential ,255 | Comfort ,100 | Signature ,140
+- **Overnights:** Anuradhapura (1N), Sigiriya (2N), Kandy (2N), Nuwara Eliya (2N), Ella (2N), Yala (1N), Mirissa (2N), Galle (1N)
+- **Itinerary:**
+  - Day 1 — Arrival: Airport welcome and drive to Anuradhapura. Overnight there.
+  - Day 2 — Sacred City: Anuradhapura's stupas and Bodhi tree, and Mihintale at sunset. Drive to Sigiriya. Overnight there.
+  - Day 3 — Lion Rock: Sunrise climb of Sigiriya Rock and afternoon safari at Minneriya. Overnight in Sigiriya.
+  - Day 4 — Polonnaruwa and Kandy: Explore Polonnaruwa, then drive to Kandy via Dambulla. Overnight in Kandy.
+  - Day 5 — Kandy at Leisure: Temple of the Tooth, Peradeniya Gardens, dance show. Overnight in Kandy.
+  - Day 6 — Train to Tea Country: Scenic train to Nanu Oya and tea factory visit. Overnight in Nuwara Eliya.
+  - Day 7 — World's End: Sunrise hike at Horton Plains, afternoon at leisure. Overnight in Nuwara Eliya.
+  - Day 8 — Ella: Scenic drive to Ella. Little Adam's Peak. Overnight in Ella.
+  - Day 9 — Ella at Leisure: Nine Arch Bridge, Ravana Falls, optional cooking class. Overnight in Ella.
+  - Day 10 — Udawalawe and Yala: Udawalawe safari on the way, then on to Yala. Overnight near the park.
+  - Day 11 — Dawn Safari and Mirissa: Early safari in Yala, then the drive to Mirissa. Overnight there.
+  - Day 12 — Whales and Beach: Whale watching (November–April) and free time. Overnight in Mirissa.
+  - Day 13 — Galle: Galle Fort, turtle hatchery and Madu River. Overnight in Galle.
+  - Day 14 — Departure: Transfer to the airport.
+- **Extra inclusions:** Anuradhapura, Sigiriya, Polonnaruwa, Minneriya, Dambulla, Tooth temple, Peradeniya, train ticket, Horton Plains, tea factory, Udawalawe, Yala, Galle (about 66 for Essential, 21 with whale watching for Comfort and Signature)
+- **Tier notes:**
+  - Essential: guesthouses and homestays, whale watching as an add-on
+  - Comfort: boutique hotels and safari lodges, dinners included, whale watching
+  - Signature: luxury hotels and villas, half board, private jeeps with naturalist guides, first-class train seats where available, private whale watching boat, one cooking class or spa session
