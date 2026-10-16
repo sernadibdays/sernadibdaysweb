@@ -66,7 +66,16 @@ export default function Admin() {
     return localStorage.getItem('serendib_admin_session') === 'true';
   });
   const [passcode, setPasscode] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [loginError, setLoginError] = useState('');
+
+  // Password Change state
+  const [currentPassInput, setCurrentPassInput] = useState('');
+  const [newPassInput, setNewPassInput] = useState('');
+  const [confirmPassInput, setConfirmPassInput] = useState('');
+  const [passChangeError, setPassChangeError] = useState('');
+  const [passChangeSuccess, setPassChangeSuccess] = useState('');
+  const [showNewPass, setShowNewPass] = useState(false);
 
   // Active Tab
   const [activeTab, setActiveTab] = useState<'overview' | 'packages' | 'enquiries' | 'testimonials' | 'faqs' | 'content' | 'database'>('overview');
@@ -126,16 +135,50 @@ export default function Admin() {
     }
   }, [isAuthenticated]);
 
+  const getAdminPassword = () => {
+    return localStorage.getItem('serendib_admin_custom_password') || 
+           (import.meta.env.VITE_ADMIN_PASSWORD as string | undefined) || 
+           'serendib2025';
+  };
+
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (passcode === 'serendib2025' || passcode === 'admin' || passcode === 'serendib') {
+    const validPassword = getAdminPassword();
+    if (passcode === validPassword) {
       localStorage.setItem('serendib_admin_session', 'true');
       setIsAuthenticated(true);
       setLoginError('');
       showToast('Welcome to Serendib Days Admin CMS');
     } else {
-      setLoginError('Invalid administrator credentials.');
+      setLoginError('Incorrect administrator password. Please try again.');
     }
+  };
+
+  const handleChangePassword = (e: React.FormEvent) => {
+    e.preventDefault();
+    setPassChangeError('');
+    setPassChangeSuccess('');
+    const validPassword = getAdminPassword();
+
+    if (currentPassInput !== validPassword) {
+      setPassChangeError('Current password is incorrect.');
+      return;
+    }
+    if (!newPassInput || newPassInput.length < 4) {
+      setPassChangeError('New password must be at least 4 characters long.');
+      return;
+    }
+    if (newPassInput !== confirmPassInput) {
+      setPassChangeError('New passwords do not match.');
+      return;
+    }
+
+    localStorage.setItem('serendib_admin_custom_password', newPassInput);
+    setCurrentPassInput('');
+    setNewPassInput('');
+    setConfirmPassInput('');
+    setPassChangeSuccess('Admin password updated successfully!');
+    showToast('Admin password updated successfully!');
   };
 
   const handleLogout = () => {
@@ -292,15 +335,25 @@ export default function Admin() {
 
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-1">Admin Passcode</label>
-              <input 
-                type="password" 
-                placeholder="Enter admin passcode (e.g. serendib2025)"
-                value={passcode}
-                onChange={e => setPasscode(e.target.value)}
-                className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-slate-900"
-                autoFocus
-              />
+              <label className="block text-sm font-semibold text-slate-700 mb-1">Administrator Password</label>
+              <div className="relative">
+                <input 
+                  type={showPassword ? 'text' : 'password'} 
+                  placeholder="Enter administrator password"
+                  value={passcode}
+                  onChange={e => setPasscode(e.target.value)}
+                  className="w-full pl-4 pr-11 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-slate-900"
+                  autoFocus
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3.5 top-3.5 text-slate-400 hover:text-slate-600 focus:outline-none"
+                  title={showPassword ? 'Hide password' : 'Show password'}
+                >
+                  {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+                </button>
+              </div>
             </div>
 
             {loginError && (
@@ -1119,6 +1172,90 @@ export default function Admin() {
                     </Button>
                   </div>
                 </div>
+              </div>
+
+              {/* Security & Password Management */}
+              <div className="lg:col-span-2 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                <div className="flex items-center gap-2 border-b pb-3">
+                  <Lock className="w-5 h-5 text-primary" />
+                  <h3 className="font-serif text-lg font-bold text-slate-900">Administrator Security & Password</h3>
+                </div>
+
+                <p className="text-sm text-slate-500">
+                  You can change the administrator password below. The new password takes effect immediately.
+                </p>
+
+                <form onSubmit={handleChangePassword} className="max-w-xl space-y-4">
+                  <div>
+                    <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                      Current Password
+                    </label>
+                    <input 
+                      type="password"
+                      placeholder="Enter current password"
+                      value={currentPassInput}
+                      onChange={e => setCurrentPassInput(e.target.value)}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm"
+                    />
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                        New Password
+                      </label>
+                      <div className="relative">
+                        <input 
+                          type={showNewPass ? 'text' : 'password'}
+                          placeholder="Enter new password"
+                          value={newPassInput}
+                          onChange={e => setNewPassInput(e.target.value)}
+                          className="w-full pl-4 pr-10 py-2.5 rounded-xl border border-slate-300 text-sm"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => setShowNewPass(!showNewPass)}
+                          className="absolute right-3 top-3 text-slate-400 hover:text-slate-600"
+                        >
+                          {showNewPass ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                        </button>
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
+                        Confirm New Password
+                      </label>
+                      <input 
+                        type="password"
+                        placeholder="Re-enter new password"
+                        value={confirmPassInput}
+                        onChange={e => setConfirmPassInput(e.target.value)}
+                        className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm"
+                      />
+                    </div>
+                  </div>
+
+                  {passChangeError && (
+                    <div className="p-3 bg-red-50 text-red-600 rounded-lg text-xs flex items-center gap-2">
+                      <AlertCircle className="w-4 h-4 shrink-0" />
+                      <span>{passChangeError}</span>
+                    </div>
+                  )}
+
+                  {passChangeSuccess && (
+                    <div className="p-3 bg-emerald-50 text-emerald-700 rounded-lg text-xs flex items-center gap-2">
+                      <Check className="w-4 h-4 shrink-0" />
+                      <span>{passChangeSuccess}</span>
+                    </div>
+                  )}
+
+                  <div className="pt-2">
+                    <Button type="submit" size="sm">
+                      Update Administrator Password
+                    </Button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
